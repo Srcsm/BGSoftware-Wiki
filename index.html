@@ -2,18 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>BG-Software</title>
+  <link rel="icon" type="image/png" href="./images/website-icon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <style>
+    .navIcon { vertical-align: bottom; margin-right: 5px; }
+    .app-nav a { vertical-align: bottom; display: inline; }
+    .home-icon:hover { color:gray !important; }
+    .wildstacker-icon:hover { color: #D8AC14 !important; }
+    .wildinspect-icon:hover { color: #F72D40 !important; }
+    .wildtools-icon:hover { color: #26D7E2 !important; }
+    .wildbuster-icon:hover { color: #2CAD17 !important; }
+    .wildchests-icon:hover { color: #A800FF !important; }
+    .superiorskyblock-icon:hover { color: #4E87EE !important; }
+    .superiorprison-icon:hover { color: #EE7EEA !important; }
+  </style>
 </head>
 <body>
+  <nav>
+    <a href="#" class="home-icon"><img src="./images/website-icon.png" width=16 height=16 class="navIcon">Home</a>
+    <a href="#/wildstacker/" class="wildstacker-icon"><img src="./images/wildstacker-icon.png" width=16 height=16 class="navIcon wildstackerIcon">WildStacker</a>
+    <a href="#/wildinspect/" class="wildinspect-icon"><img src="./images/wildinspect-icon.png" width=16 height=16 class="navIcon wildinspectIcon">WildInspect</a>
+    <a href="#/wildtools/" class="wildtools-icon"><img src="./images/wildtools-icon.png" width=16 height=16 class="navIcon">WildTools</a>
+    <a href="#/wildbuster/" class="wildbuster-icon"><img src="./images/wildbuster-icon.png" width=16 height=16 class="navIcon">WildBuster</a>
+    <a href="#/wildchests/" class="wildchests-icon"><img src="./images/wildchests-icon.png" width=16 height=16 class="navIcon">WildChests</a>
+    <a href="#/superiorskyblock/" class="superiorskyblock-icon"><img src="./images/superiorskyblock-icon.png" width=16 height=16 class="navIcon">SuperiorSkyblock2</a>
+    <a href="#/superiorprison/" class="superiorprison-icon"><img src="./images/superiorprison-icon.png" width=16 height=16 class="navIcon">SuperiorPrison</a>
+  </nav>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      repo: 'https://github.com/OmerBenGera/BGSoftware-Wiki/',
-      homepage: 'main.md'
+      homepage: 'main.md',
+      loadSidebar: true
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
