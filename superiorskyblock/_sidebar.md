@@ -1,7 +1,7 @@
 <center>
   <a style="color: black; text-decoration: none;" href="/#/superiorskyblock/">
     <img src="./images/superiorskyblock-icon.png" width=35%>
-    <h1>SuperiorSkyblock2</h1>
+    <h1 style="color: #4e87ee;">SuperiorSkyblock2</h1>
   </a>
 </center>
 

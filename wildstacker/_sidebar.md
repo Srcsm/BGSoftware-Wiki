@@ -1,7 +1,7 @@
 <center>
   <a style="color: black; text-decoration: none;" href="/#/wildstacker/">
     <img src="./images/wildstacker-icon.png" width=35%>
-    <h1>WildStacker</h1>
+    <h1 style="color: #d8ac14;">WildStacker</h1>
   </a>
 </center>
 
