@@ -1,12 +1,15 @@
 <center>
   <a style="color: black; text-decoration: none;" href="/#/superiorskyblock/">
     <img src="./images/superiorskyblock-icon.png" width=35%>
-    <h1>SuperiorSkyblock</h1>
+    <h1>SuperiorSkyblock2</h1>
   </a>
 </center>
 
-* [Home Page](superiorskyblock/)
-* [SuperiorSkyblock Document 2](superiorskyblock/)
-* [SuperiorSkyblock Document 3](superiorskyblock/)
-* [SuperiorSkyblock Document 4](superiorskyblock/)
-* [SuperiorSkyblock Document 5](superiorskyblock/)
+* [Get Started](superiorskyblock/)
+* [Configuration](superiorskyblock/configuration)
+* [Island Settings](superiorskyblock/island-settings)
+* [Island Permissions](superiorskyblock/island-permissions)
+* [Schematics](superiorskyblock/schematics)
+* [Menus](superiorskyblock/menus)
+* [Upgrades](superiorskyblock/upgrades)
+* [Missions](superiorskyblock/missions)
