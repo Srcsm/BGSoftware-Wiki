@@ -5,8 +5,4 @@
   </a>
 </center>
 
-* [Home Page](wildtools/)
-* [WildTools Document 2](wildtools/)
-* [WildTools Document 3](wildtools/)
-* [WildTools Document 4](wildtools/)
-* [WildTools Document 5](wildtools/)
+* [Get Started](wildtools/)
