@@ -6,7 +6,7 @@ Every file is represented as a "loot table". Loot tables contain global settings
 Pairs contain the items, and can be manipulated differently to get different results.<br>
 
 ### Loot Tables
-```
+```json
 {
   # We don't want equipment to be dropped.
   "dropEquipment": false,
@@ -28,7 +28,7 @@ Pairs contain the items, and can be manipulated differently to get different res
 ```
 
 ### Loot Pairs
-```
+```json
 {
   # All settings related to the table
   ...
@@ -77,7 +77,7 @@ Pairs contain the items, and can be manipulated differently to get different res
 ```
 
 ### Loot Items
-```
+```json
 {
   # All settings related to the table
   ...
@@ -150,7 +150,7 @@ Pairs contain the items, and can be manipulated differently to get different res
 ```
 
 ### Loot Commands
-```
+```json
 {
   # All settings related to the table
   ...
