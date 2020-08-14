@@ -5,4 +5,4 @@
   </a>
 </center>
 
-Adde* [Get Started](superiorprison/)
+* [Get Started](superiorprison/)
