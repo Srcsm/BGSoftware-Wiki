@@ -5,8 +5,4 @@
   </a>
 </center>
 
-* [Home Page](wildinspect/)
-* [WildInspect Document 2](wildinspect/)
-* [WildInspect Document 3](wildinspect/)
-* [WildInspect Document 4](wildinspect/)
-* [WildInspect Document 5](wildinspect/)
+* [Get Started](wildinspect/)
