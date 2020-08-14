@@ -5,8 +5,4 @@
   </a>
 </center>
 
-* [Home Page](wildchests/)
-* [WildChests Document 2](wildchests/)
-* [WildChests Document 3](wildchests/)
-* [WildChests Document 4](wildchests/)
-* [WildChests Document 5](wildchests/)
+* [Get Started](wildchests/)
