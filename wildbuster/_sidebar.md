@@ -5,8 +5,4 @@
   </a>
 </center>
 
-* [Home Page](/)
-* [WildBuster Document 2](/)
-* [WildBuster Document 3](/)
-* [WildBuster Document 4](/)
-* [WildBuster Document 5](/)
+* [Get Started](wildbuster/)
