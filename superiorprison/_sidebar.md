@@ -5,8 +5,4 @@
   </a>
 </center>
 
-* [Home Page](superiorprison/)
-* [SuperiorPrison Document 2](superiorprison/)
-* [SuperiorPrison Document 3](superiorprison/)
-* [SuperiorPrison Document 4](superiorprison/)
-* [SuperiorPrison Document 5](superiorprison/)
+Adde* [Get Started](superiorprison/)
