@@ -1,17 +1,13 @@
-<div class="header spacer">Loot Tables</div>
-<div>
-  <p style="margin-top: 15px;">Loot tables are used to store all the loot data of entities.<br>
-    They cannot be disabled, and they are used to calculate loot faster.<br>
-    They can be changed however you want, as long as you follow the formatting rules.</p>
+### Loot Tables
+Loot tables are used to store all the loot data of entities.<br>
+They cannot be disabled, and they are used to calculate loot faster.<br>
+They can be changed however you want, as long as you follow the formatting rules.<br><br>
+Every file is represented as a "loot table". Loot tables contain global settings and pairs.<br>
+Pairs contain the items, and can be manipulated differently to get different results.<br>
 
-  <br>
-
-  <p>Every file is represented as a "loot table". Loot tables contain global settings and pairs.<br>
-    Pairs contain the items, and can be manipulated differently to get different results.</p>
-</div>
-
-<div style="font-size:18px; font-weight: bold; margin-top: 50px;">Loot Tables</div>
-<pre style="background-color:#282c34;"><code class="json">{
+### Loot Tables
+```
+{
   # We don't want equipment to be dropped.
   "dropEquipment": false,
   # We want a random exp value between 5 and 8.
@@ -29,11 +25,10 @@
   ...
   ]
 }
-</code></pre>
+```
 
-
-<div style="font-size:18px; font-weight: bold; margin-top: 50px;">Loot Pairs</div>
-<pre style="background-color:#282c34;"><code class="json">
+### Loot Pairs
+```
 {
   # All settings related to the table
   ...
@@ -79,11 +74,10 @@
     }
   ]
 }
-</code></pre>
+```
 
-
-<div style="font-size:18px; font-weight: bold; margin-top: 50px;">Loot Items</div>
-<pre style="background-color:#282c34;"><code class="json">
+### Loot Items
+```
 {
   # All settings related to the table
   ...
@@ -153,11 +147,10 @@
     }
   ]
 }
-</code></pre>
+```
 
-
-<div style="font-size:18px; font-weight: bold; margin-top: 50px;">Loot Commands</div>
-<pre style="background-color:#282c34;"><code class="json">
+### Loot Commands
+```
 {
   # All settings related to the table
   ...
@@ -197,4 +190,4 @@
     }
   ]
 }
-</code></pre>
+```
