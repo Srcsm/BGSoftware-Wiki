@@ -13,3 +13,4 @@
 * [Menus](superiorskyblock/menus)
 * [Upgrades](superiorskyblock/upgrades/)
 * [Missions](superiorskyblock/missions/)
+* [API](superiorskyblock/api/)
