@@ -8,7 +8,7 @@
 * [Get Started](superiorskyblock/)
 * [Configuration](superiorskyblock/configuration)
 * [Island Settings](superiorskyblock/island-settings)
-* [Island Permissions](superiorskyblock/island-permissions)
+* [Island Permissions](superiorskyblock/island-permissions/)
 * [Schematics](superiorskyblock/schematics)
 * [Menus](superiorskyblock/menus)
 * [Upgrades](superiorskyblock/upgrades/)
