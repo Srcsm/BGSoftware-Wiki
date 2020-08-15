@@ -824,3 +824,6 @@ pre:after {
     text-align: right;
     top: 0;
 }
+.shifted-up{
+    margin-top: -10px;
+}
