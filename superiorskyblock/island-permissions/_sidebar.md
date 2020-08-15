@@ -7,7 +7,7 @@
 
 * [Get Started](superiorskyblock/)
 * [Configuration](superiorskyblock/configuration)
-* [Island Settings](superiorskyblock/island-settings)
+* [Island Settings](superiorskyblock/island-settings/)
 * [Island Permissions](superiorskyblock/island-permissions/)
 ** [Built-in permissions](superiorskyblock/island-permissions/?id=built-in-permissions)
 ** [Create your own permission](superiorskyblock/island-permissions/?id=create-your-own-permission)

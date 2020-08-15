@@ -8,6 +8,8 @@
 * [Get Started](superiorskyblock/)
 * [Configuration](superiorskyblock/configuration)
 * [Island Settings](superiorskyblock/island-settings/)
+** [Built-in settings](superiorskyblock/island-settings/?id=built-in-settings)
+** [Create your own setting](superiorskyblock/island-settings/?id=create-your-own-setting)
 * [Island Permissions](superiorskyblock/island-permissions/)
 * [Schematics](superiorskyblock/schematics)
 * [Menus](superiorskyblock/menus)
