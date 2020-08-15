@@ -6,32 +6,32 @@ In this documantation, you will understand how to edit them to your own style!<b
 Creating a new upgrade is an easy task to do!<br>
 All the upgrades follow the same rules, but in this tutorial we will create a generator upgrade.<br><br>
 We will start with the basic layout for the upgrade:<br>
-```
+```yaml
 upgrades:
-  island-generators:        // The name of the upgrade.
-    '1':                    // The first level of the upgrade.
+  island-generators:        # The name of the upgrade.
+    '1':                    # The first level of the upgrade.
       <to-do>
-    '2':                    // The second level of the upgrade.
+    '2':                    # The second level of the upgrade.
       <to-do>
 ```
 All the upgrades work with the same layout: a global section for the upgrade,<br>
 and sub-sections for every level of the upgrade. You can make as many levels as you want!<br><br>
 Now, we can start working on our first level. We will give it a price, commands to be executed upon rankup<br>
 and a required permission to use the upgrade. In this case, I don't want a permission - so I don't add that section.<br>
-```
+```yaml
 '1':
-  price: 100000.0          // The price to rank up to the second level.
+  price: 100000.0          # The price to rank up to the second level.
   commands:
-    - 'island admin setupgrade %player% island-generators 2'     // We must change the level of the upgrade manually using a command.
-    - 'island admin msgall %player% &e&lUpgrade | &7%player% upgraded your generators to level 2!'   // Message that will be sent to the island members.
-  permission:  <your-permission>   // You can add it if you want a required permission to rankup.
+    - 'island admin setupgrade %player% island-generators 2'     # We must change the level of the upgrade manually using a command.
+    - 'island admin msgall %player% &e&lUpgrade | &7%player% upgraded your generators to level 2!'   # Message that will be sent to the island members.
+  permission:  <your-permission>   # You can add it if you want a required permission to rankup.
 ```
 As you might have noticed, I run /is admin setupgrade - this is required so the plugin will actually change the upgrade's level for the island.<br>
 Not doing so will make the upgrade to not rankup, as you'll see in the last level.<br><br>
 After we set up the basic layout of the level, we want to give it some values. The values will be synced with the island.<br>
 You can change crop growth, spawner rates, mob drops, limits, generators and more with the upgrades!<br>
 For this tutorial, I will change the generator rates using the "generator-rates" section:<br>
- ```
+ ```yaml
 '1':
   price: 100000.0
   commands:
@@ -46,7 +46,7 @@ For this tutorial, I will change the generator rates using the "generator-rates"
 That's it! We completed our first level! Because this is the first level of the upgrade, it will be applied to all the islands by default.<br>
 It means that all of the islands on my server will have the generator rates that I configured.<br>
 Now, I will add more levels by following the same layout:<br>
- ```
+ ```yaml
 upgrades:
   island-generators:
     '1':
@@ -81,9 +81,9 @@ upgrades:
 ```
 After I configured all of my levels, I must also add the last upgrade - level #4.<br>
 Unlike the other upgrades, this upgrade will not have the setupgrade command, but will still have values assigned to it:<br>
-```
+```yaml
 '4':
-  price: 0.0       // I set the price to 0, so my players will always get the warning message.
+  price: 0.0       # I set the price to 0, so my players will always get the warning message.
   commands:
     - 'island admin msg %player% &c&lError | &7You have reached the maximum upgrade for island generators.'
   generator-rates:
