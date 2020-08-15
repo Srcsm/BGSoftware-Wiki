@@ -11,7 +11,7 @@
 * [Island Permissions](superiorskyblock/island-permissions)
 * [Schematics](superiorskyblock/schematics)
 * [Menus](superiorskyblock/menus)
-* [Upgrades](superiorskyblock/upgrades/?id=upgrades)
+* [Upgrades](superiorskyblock/upgrades/)
 ** [Creating your first upgrade](superiorskyblock/upgrades/?id=creating-your-first-upgrade)
 ** [Custom Upgrades](superiorskyblock/upgrades/?id=custom-upgrades)
 ** [Disabling Upgardes](superiorskyblock/upgrades/?id=disabling-upgardes)
