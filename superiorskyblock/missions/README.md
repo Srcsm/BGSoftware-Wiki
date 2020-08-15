@@ -321,7 +321,7 @@ public final class ChatMission extends Mission<Integer> implements Listener {
             superiorPlayer - our player.
             boolean - should the plugin check for auto reward or not.
          */
-        SuperiorSkyblockAPI.getMissions().rewardMission(this, superiorPlayer, true);
+        SuperiorSkyblockAPI.getMissiosns().rewardMission(this, superiorPlayer, true);
     }
 
 }
@@ -330,4 +330,4 @@ public final class ChatMission extends Mission<Integer> implements Listener {
 More complicated missions will require more data to be tracked and more listeners.<br>
 Moreoever, I didn't implement the saveProgress() and loadProgress(), and didn't implement other useful methods that you might want to use.<br>
 I recommend going through the Mission object before creating your own jar and see all the things it provides.<br>
-If you want to see how the default mission jars are implemented, contact @Ome_R on [discord](https://bg-software.com/discord/)! 
+If you want to see how the default mission jars are implemented, check out their [github repository](https://github.com/OmerBenGera/SuperiorSkyblock2-Missions/)! 
