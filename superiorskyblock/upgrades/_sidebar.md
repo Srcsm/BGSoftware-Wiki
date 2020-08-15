@@ -15,4 +15,4 @@
 ** [Creating your first upgrade](superiorskyblock/upgrades/?id=creating-your-first-upgrade)
 ** [Custom Upgrades](superiorskyblock/upgrades/?id=custom-upgrades)
 ** [Disabling Upgardes](superiorskyblock/upgrades/?id=disabling-upgardes)
-* [Missions](superiorskyblock/missions)
+* [Missions](superiorskyblock/missions/)
