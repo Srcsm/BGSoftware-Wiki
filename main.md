@@ -6,7 +6,7 @@ If you need help with something regarding our products, want to file a bug repor
 
 
 ## Contributing
-Our wiki is hosted by Github Pages, and all of the pages are based on markdowns.<br>
+Our wiki is hosted by Github Pages, and all of the pages are based on markdown.<br>
 You can help us with expending it by visiting the [github repository](https://github.com/OmerBenGera/BGSoftware-Wiki), fork it and do your changes.<br>
 After you're done, make a pull-request that will be reviewed by the staff team.<br><br>
 <u>Please note</u>: Every PR should make changes for one page only. If you change multiple pages, make separate PRs.<br>
