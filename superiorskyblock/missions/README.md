@@ -72,7 +72,7 @@ lumberjack:
   disband-reset: true
   required-checks:
     - '%superior_island_level% > 250'
-  
+
   # The blocks that will be tracked.
   required-blocks:
     # A section of blocks. All the blocks in a section will be counted together.
@@ -87,7 +87,7 @@ lumberjack:
         - 'DARK_OAK_LOG'
       # The total amount of all the blocks of the section (5 stacks).
       amount: 320
-  
+
   # The rewards of the mission.
   rewards:
     items:
@@ -96,7 +96,7 @@ lumberjack:
         amount: 16          # The item's amount.
     commands:               # Commands that will be executed upon completion.
       - 'is admin msg %player% &e&lMission | &7Successfully finished the mission Lumberjack!'
-  
+
   # Settings related to the icon in the missions menu.
   icons:
     # The icon that will be displayed when the player cannot complete the mission for any reason.
@@ -171,7 +171,7 @@ In order to create your own missions jar, you must have knowledge in Java and th
 Mission jars are part of the SuperiorSkyblock's API, which can be found [here](https://github.com/OmerBenGera/SuperiorSkyblockAPI).<br><br>
 In this tutorial, I will make a chat-mission that counts the amount of times a player has written "Hello".<br>
 First, I create a ChatMission object that extends the Mission object, and override all the methods.<br>
-```js
+```java
 public final class ChatMission extends Mission<Object> {
 
     @Override
@@ -199,9 +199,9 @@ public final class ChatMission extends Mission<Object> {
 As you can see, the Mission object needs an argument. This argument will be our data.<br>
 The Mission object has a built-in system to organize all the data for us.<br>
 In this tutorial, I can just use the Integer class. In more complicated missions, you might want to use your own custom object.<br>
-```js
+```java
 public final class ChatMission extends Mission<Integer> {
-    
+
     ...
 
 }
@@ -213,7 +213,7 @@ If something was not done correctly, and you want to cancel the loading of the m
 <u>onComplete()</u> - A callback method that will be ran when a player completes a mission.<br>
 <u>onCompleteFail()</u> - A callback method that will be ran when a player fails to complete a mission.<br>
 
-```js
+```java
 public final class ChatMission extends Mission<Integer> {
 
     private int AMOUNT_OF_TIMES = 0;
@@ -228,10 +228,10 @@ public final class ChatMission extends Mission<Integer> {
             throw new MissionLoadException("Mission ChatMission must contain the \"message\" section!");
 
         AMOUNT_OF_TIMES = section.getInt("times");
-        
+
         if(AMOUNT_OF_TIMES <= 0)
             throw new MissionLoadException("times must be a positive value.");
-        
+
         CHAT_MESSAGE = section.getString("message").toLowerCase();
     }
 
@@ -259,7 +259,7 @@ At this point, you can start listening to your events and alter the data when ne
 There's only one important thing to do, and it's to call the rewardMission() method.<br>
 Furthermore, it's important to implement the saveProgress() and loadProgress() methods, so data will be saved on restarts.<br><br>
 The final product after adding a listener & registering it:<br>
-```js
+```java
 public final class ChatMission extends Mission<Integer> implements Listener {
 
     private int AMOUNT_OF_TIMES = 0;
@@ -330,4 +330,4 @@ public final class ChatMission extends Mission<Integer> implements Listener {
 More complicated missions will require more data to be tracked and more listeners.<br>
 Moreoever, I didn't implement the saveProgress() and loadProgress(), and didn't implement other useful methods that you might want to use.<br>
 I recommend going through the Mission object before creating your own jar and see all the things it provides.<br>
-If you want to see how the default mission jars are implemented, check out their [github repository](https://github.com/OmerBenGera/SuperiorSkyblock2-Missions/)! 
+If you want to see how the default mission jars are implemented, check out their [github repository](https://github.com/OmerBenGera/SuperiorSkyblock2-Missions/)!
