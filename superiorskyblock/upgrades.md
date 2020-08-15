@@ -101,21 +101,26 @@ You can use the following sections to alter island values:<br>
 <u>mob-drops</u>: The mob drops multiplier for this upgrade.<br>
 <u>team-limit</u>: The team limit for this upgrade.<br>
 <u>warps-limit</u>: The warps limit for this upgrade.<br>
+<u>coop-limit</u>: The coops limit for this upgrade.<br>
 <u>border-size</u>: The border size for this upgrade.<br>
 <u>block-limits</u>: The block limits for this upgrade.<br>
-Under this section, all the blocks will be in the following format: "TYPE: LIMIT".<br>
+&ensp;&ensp;&ensp;&ensp;Under this section, all the blocks will be in the following format: "TYPE: LIMIT".<br>
+<u>entity-limits</u>: The entity limits for this upgrade.<br>
+&ensp;&ensp;&ensp;&ensp;Under this section, all the entities will be in the following format: "TYPE: LIMIT".<br>
 <u>generator-rates</u>: The generator rates for this upgrade.<br>
-Under this section, all the rates will be in the following format: "TYPE: LIMIT".<br>
+&ensp;&ensp;&ensp;&ensp;Under this section, all the rates will be in the following format: "TYPE: CHANCE".<br>
+<u>island-effects</u>: The island effects for this upgrade.<br>
+&ensp;&ensp;&ensp;&ensp;Under this section, all the effects will be in the following format: "EFFECT: LEVEL".<br>
 
 <br>
 
-### Custom upgrades
+### Custom Upgrades
 You can create custom upgrades with data from other plugins using the commands section.<br>
 <u>Please note</u>: islands will not be synced with that data.<br>
 
 <br>
 
-### Disabling upgardes
+### Disabling Upgardes
 In order to disable upgrades completely, follow the instructions below:<br>
 1. Delete all the upgrades from the upgrades file.<br>
 2. Revoke the permission superior.island.upgrade from players (Removing the ability to use /is upgrade).<br>
