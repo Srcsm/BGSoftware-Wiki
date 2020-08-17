@@ -149,4 +149,5 @@ public final class NearCommand implements SuperiorCommand {
 }
 ```
 The last thing to do is to call `SuperiorSkyblockAPI.registerCommand(<SuperiorCommand>)`, and that's it! You registered your own command!<br>
-This command will be supported in all tab completes, /is help and argument restrictions!<br> 
+This command will be supported in all tab completes, /is help and argument restrictions!<br>
+You can also register the commands without calling the method above. You can extract the class into an external jar, and put it in the commands folder of SuperiorSkyblock2.
