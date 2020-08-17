@@ -14,5 +14,7 @@
 * [Upgrades](superiorskyblock/upgrades/)
 * [Missions](superiorskyblock/missions/)
 * [API](superiorskyblock/api/)
+** [Basic usage](superiorskyblock/api/?id=basic-usage)
+** [Creating your own command](superiorskyblock/api/?id=creating-your-own-command)
 ** [Create your own island setting](superiorskyblock/island-settings/?id=create-your-own-setting)
 ** [Create your own island permission](superiorskyblock/island-permissions/?id=create-your-own-permission)
