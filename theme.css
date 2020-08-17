@@ -395,6 +395,11 @@ body.close .sidebar-toggle {
 body.close .content {
     left: 0;
 }
+
+body.close .app-nav {
+    left: 50px;
+}
+
 @media print {
     .app-nav,
     .github-corner,
