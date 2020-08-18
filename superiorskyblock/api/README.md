@@ -150,4 +150,78 @@ public final class NearCommand implements SuperiorCommand {
 ```
 The last thing to do is to call `SuperiorSkyblockAPI.registerCommand(<SuperiorCommand>)`, and that's it! You registered your own command!<br>
 This command will be supported in all tab completes, /is help and argument restrictions!<br>
-You can also register the commands without calling the method above. You can extract the class into an external jar, and put it in the commands folder of SuperiorSkyblock2.
+You can also register the commands without calling the method above. You can extract the class into an external jar, and put it in the commands folder of SuperiorSkyblock2.<br><br>
+
+### Register your own block-keys
+The keys system is used to parse blocks and items into a comparable object, that supports both legacy & non-legacy versions.<br>
+By registering custom keys, you can give your custom blocks a custom key, which will separate it from similar blocks.<br>
+In this tutorial, I'll make "powerful sponges" to have custom keys.<br><br>
+In order to accomplish this, I'll use the `SuperiorSkyblockAPI.getBlockValues().registerKeyParser()` method.<br>
+This method takes two parameters:<br>
+\- customKeyParser: A CustomKeyParser interface, which we need to create.<br>
+\- blockTypes: A list of block types which can be parsed by the parser.<br><br>
+First of all, I'll create my CustomKeyParser object. The interface contains two methods that needs to be implemented:<br>
+\- getCustomKey(\<Location>): Handles the parsing part.<br>
+\- isCustomKey(\<Key>): This method is used in the block counts menu, to parse the custom key into it's block form.<br>
+After creating the object and implementing basic parser, the code looks like this:<br>
+```java
+    private static final Set<Location> powerfulSponges = new HashSet<>();
+    private static final Key SPONGE_KEY = Key.of("SPONGE");
+    private static final Key POWERFUL_SPONGE_KEY = Key.of("POWERFUL_SPONGE");
+
+    private static final class PowerfulSpongeParser implements CustomKeyParser{
+
+        @Override
+        public Key getCustomKey(Location location) {
+            /* All of my custom sponges are cached in powerfulSponges.
+            I know that the block in that location will always be SPONGE, so I can return the sponge key
+            if it's not a custom sponge. If it is, then I return my custom key. */
+            return powerfulSponges.contains(location) ? POWERFUL_SPONGE_KEY : SPONGE_KEY;
+        }
+
+        @Override
+        public boolean isCustomKey(Key key) {
+            // If the key is "POWERFUL_SPONGE", then that key was created by this parser.
+            return key.equals(POWERFUL_SPONGE_KEY);
+        }
+
+    }
+```
+The only thing left is to register the custom parser, and set the whitelisted block types.<br>
+This can be done anytime after SuperiorSkyblock was enabled. I am registering it inside a task of bukkit, so I know it happens on the first tick - after all the plugins were enabled.<br>
+The final version is the following:<br>
+```java
+public final class PowerfulSpongesKey {
+
+    private static final Set<Location> powerfulSponges = new HashSet<>();
+    private static final Key SPONGE_KEY = Key.of("SPONGE");
+    private static final Key POWERFUL_SPONGE_KEY = Key.of("POWERFUL_SPONGE");
+    
+    public static void registerKey(JavaPlugin plugin){
+        Bukkit.getScheduler().runTask(plugin, () -> {
+            SuperiorSkyblockAPI.getBlockValues().registerKeyParser(new PowerfulSpongeParser(), SPONGE_KEY); 
+        });
+    }
+
+    private static final class PowerfulSpongeParser implements CustomKeyParser{
+
+        @Override
+        public Key getCustomKey(Location location) {
+            /* All of my custom sponges are cached in powerfulSponges.
+            I know that the block in that location will always be SPONGE, so I can return the sponge key
+            if it's not a custom sponge. If it is, then I return my custom key. */
+            return powerfulSponges.contains(location) ? POWERFUL_SPONGE_KEY : SPONGE_KEY;
+        }
+
+        @Override
+        public boolean isCustomKey(Key key) {
+            // If the key is "POWERFUL_SPONGE", then that key was created by this parser.
+            return key.equals(POWERFUL_SPONGE_KEY);
+        }
+
+    }
+
+}
+```
+That's it! Everytime I'll place a powerful sponge, it will be considered as "POWERFUL_SPONGE" instead of a regular sponge.<br>
+This is supported in counts menu, values menu, worth file, levels file and everything else!<br>
