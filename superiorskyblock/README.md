@@ -3,9 +3,10 @@
 
 <a href="https://www.spigotmc.org/resources/63905/" class="purchase" id="ssb-purchase">Purchase now!</a>
 
+<iframe class="showcase" src="https://www.youtube.com/embed/C4OSlkYLpfc" allowfullscreen="" width="700" height="400" frameborder="0"></iframe>
 </center>
 
-<br>
+<br><br><br><br>
 
 <img src="./images/ssb-description.png" /><br>
 SuperiorSkyblock is a modern Skyblock core that brings many tweaks and changes to the old and lovely Skyblock game-mode.<br>
