@@ -343,7 +343,8 @@ BG-Software
     visibility: hidden;
 }
   
-.styled-table td, .styled-table th {
+.styled-table td,
+.styled-table th {
     border: none;
     background-color: white;
 }
@@ -357,7 +358,7 @@ BG-Software
     font-size: 20px;
 }
 
-  
+
 /*
 Custom Table Settings
 BG-Software
@@ -371,32 +372,6 @@ BG-Software
     border: 1px solid #ddd;
     padding: 6px 13px;
 }
-
-
-/*
-Custom Table Settings
-BG-Software
-*/
-
-.no-line-table th:empty {
-  visibility: hidden;
-}
-
-.no-line-table td,
-.no-line-table th {
-    border: none;
-    background-color: white;
-}
-
-.no-line-table table {
-  border-collapse: separate;
-}
-
-
-/*
-Custom Table Settings
-BG-Software
-*/
 
 .markdown-section tr {
     border-top: 1px solid #ccc;
