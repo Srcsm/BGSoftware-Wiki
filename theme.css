@@ -931,3 +931,11 @@ pre:after {
 #wi-purchase:hover {
     background: #dd1628;
 }
+
+#wc-purchase {
+    background: #a800ff;
+}
+
+#wc-purchase:hover {
+    background: #9200dd;
+}
