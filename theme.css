@@ -915,3 +915,11 @@ pre:after {
 #ws-purchase:hover {
     background: #c39700;
 }
+
+#wl-purchase {
+    background: #cae728;
+}
+
+#wl-purchase:hover {
+    background: #78b214;
+}
