@@ -15,21 +15,26 @@ The core is optimized and it's designed to fit your needs. Make sure you test th
 <br><br>
 
 <img src="./images/ssb-features.png" /><br>
-- Optimizations
-- Schematics
-- Island upgrades
-- Island permissions
-- Island roles
-- Island bank
-- Island worth & level
-- Island borders
-- Island ratings
-- Island top (based on worth, level, ratings & visitors)
-- Stackable blocks
-- Team limits
-- Rich API for developers
-- Fully customized guis
-- Fully customized messages
+<div class="clean-table offset-table">
+
+|                                                          |
+|----------------------------------------------------------|
+| - Optimizations                                          |
+| - Schematics                                             |
+| - Island upgrades                                        |
+| - Island permissions                                     |
+| - Island roles                                           |
+| - Island bank                                            |
+| - Island worth & level                                   |
+| - Island borders                                         |
+| - Island ratings                                         |
+| - Island top (based on worth, level, ratings & visitors) |
+| - Stackable blocks                                       |
+| - Team limits                                            |
+| - Rich API for developers                                |
+| - Fully customized guis                                  |
+| - Fully customized messages                              |
+</div>
 
 <br><br>
 
