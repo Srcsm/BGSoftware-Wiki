@@ -923,3 +923,11 @@ pre:after {
 #wl-purchase:hover {
     background: #78b214;
 }
+
+#wi-purchase {
+    background: #f72d40;
+}
+
+#wi-purchase:hover {
+    background: #dd1628;
+}
