@@ -334,6 +334,15 @@ body.sticky .sidebar-toggle {
     width: 100%;
 }
 
+.markdown-section th {
+    font-weight: 700;
+}
+.markdown-section td,
+.markdown-section th {
+    border: 1px solid #ddd;
+    padding: 6px 13px;
+}
+
 /*
 Custom Table Settings
 BG-Software
@@ -363,15 +372,6 @@ BG-Software
 Custom Table Settings
 BG-Software
 */
-
-.markdown-section th {
-    font-weight: 700;
-}
-.markdown-section td,
-.markdown-section th {
-    border: 1px solid #ddd;
-    padding: 6px 13px;
-}
 
 .markdown-section tr {
     border-top: 1px solid #ccc;
