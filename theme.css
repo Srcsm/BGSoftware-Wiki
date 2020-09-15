@@ -893,3 +893,11 @@ pre:after {
 #ssb-purchase:hover {
     background: #226bf0;
 }
+
+#wt-purchase {
+    background: #26d7e2;
+}
+
+#wt-purchase:hover {
+    background: #00b2bd;
+}
