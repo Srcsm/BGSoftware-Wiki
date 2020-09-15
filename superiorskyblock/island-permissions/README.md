@@ -71,6 +71,9 @@ Gives the ability to expel players from the island
 **Farm Tramping**<br>
 Gives access to destroy farms (jump on them) inside the island
 
+**Fertilize**<br>
+Gives access to fertilize blocks around the island
+
 **Fish**<br>
 Gives access to fish inside the island
 
@@ -84,11 +87,17 @@ The interactable blocks are configurable and can be found under the interactable
 **Invite Member**<br>
 Gives access to invite new players into the island
 
+**Island Chest**<br>
+Gives access to the community chest of the island
+
 **Item Frame**<br>
 Gives access to break and interact with item frames inside the island
 
 **Kick Member**<br>
 Gives access to kick members from the island
+
+**Leash**<br>
+Gives access to leash mobs inside the island
 
 **Minecart Damage**<br>
 Gives access to damage vehicles inside the island
@@ -119,6 +128,9 @@ Gives access to see the paypal of the island
 
 **Pickup Drops**<br>
 Gives access to pick up drops inside the island
+
+**Pickup Fish**<br>
+Gives access to pickup fish with buckets inside the island
 
 **Promote Members**<br>
 Gives access to promote members inside the island
@@ -164,6 +176,12 @@ Gives access to remove members from being coop from the island
 
 **Use**<br>
 Gives access to use blocks inside the island
+
+**Valuable Break**<br>
+Gives access to break valuable blocks inside the island
+
+**Villager Trading**<br>
+Gives access to trade with villagers inside the island
 
 **Withdraw Money**<br>
 Gives access to withdraw money from the island's bank
