@@ -14,7 +14,7 @@ Make sure you test the plugin before you purchase on **SB2.BG-SOFTWARE.COM**
 <br><br><br><br>
 
 <img src="./images/wt-features.png" /><br>
-<div class="styled-table" style="margin-top: -30px;">
+<div class="clean-table offset-table">
 
 |                                  |
 |----------------------------------|
@@ -34,7 +34,7 @@ Make sure you test the plugin before you purchase on **SB2.BG-SOFTWARE.COM**
 <br><br><br><br>
 
 <img src="./images/wt-commands.png" /><br>
-<div class="styled-table" style="margin-top: -30px;">
+<div class="clean-table offset-table">
 
 |                                                                                                    |
 |----------------------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Make sure you test the plugin before you purchase on **SB2.BG-SOFTWARE.COM**
 <br><br><br><br>
 
 <img src="./images/wt-permissions.png" /><br>
-<div class="styled-table" style="margin-top: -30px;">
+<div class="clean-table offset-table">
 
 |                                                                    |
 |--------------------------------------------------------------------|

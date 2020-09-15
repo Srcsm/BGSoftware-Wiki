@@ -348,25 +348,31 @@ Custom Table Settings
 BG-Software
 */
 
-.styled-table th:empty {
+.clean-table th:empty {
     visibility: hidden;
 }
   
-.styled-table td,
-.styled-table th {
+.clean-table td,
+.clean-table th {
     border: none;
     background-color: white;
 }
 
-.styled-table table {
+.clean-table table {
     border-collapse: separate;
 }
 
-.styled-table thead {
-    text-align: left;
+.big-titles thead {
     font-size: 20px;
 }
 
+.aligned-titles thead {
+    text-align: left;
+}
+
+.offset-table {
+    margin-top: -25px;
+}
 
 /*
 Custom Table Settings
