@@ -907,3 +907,11 @@ pre:after {
 #wt-purchase:hover {
     background: #00b2bd;
 }
+
+#ws-purchase {
+    background: #d8ac14;
+}
+
+#ws-purchase:hover {
+    background: #c39700;
+}
