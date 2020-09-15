@@ -939,3 +939,11 @@ pre:after {
 #wc-purchase:hover {
     background: #9200dd;
 }
+
+#wb-purchase {
+    background: #2bad16;
+}
+
+#wb-purchase:hover {
+    background: #149000;
+}
