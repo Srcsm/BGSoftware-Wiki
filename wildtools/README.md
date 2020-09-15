@@ -9,7 +9,7 @@
 
 <img src="./images/wt-description.png" /><br>
 WildTools brings the ability to create custom wands and tools that can be used by players. You can create Sell-Wands, Harvester Hoes, Trench Pickaxes and more!<br>
-Make sure you test the plugin before you purchase on **SB2.BG-SOFTWARE.COM**
+Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br><br><br>
 
