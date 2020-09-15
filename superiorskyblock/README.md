@@ -33,7 +33,7 @@ The core is optimized and it's designed to fit your needs. Make sure you test th
 <br><br>
 
 <img src="./images/ssb-commands.png" /><br>
-<div class=no-line-table>
+<div class=styled-table>
 
 | Player Commands: |                  |                     |                     |                  |
 |------------------|------------------|---------------------|---------------------|------------------|
@@ -50,7 +50,7 @@ The core is optimized and it's designed to fit your needs. Make sure you test th
 | /island delwarp  | /island mission  | /island setdiscord  | /island transfer    |
 | /island demote   | /island missions | /island setpaypal   | /island uncoop      |
 </div>
-<div class=no-line-table>
+<div class=styled-table>
 
 | Admin Commands:               |                        |                                |                               |
 |-------------------------------|------------------------|--------------------------------|-------------------------------|
@@ -77,7 +77,7 @@ The core is optimized and it's designed to fit your needs. Make sure you test th
 <br><br>
 
 <img src="./images/ssb-permissions.png" /><br>
-<div class=no-line-table>
+<div class=styled-table>
 
 | Player Permissions:     |                             |                                          |                               |
 |-------------------------|-----------------------------|------------------------------------------|-------------------------------|
@@ -98,7 +98,7 @@ The core is optimized and it's designed to fit your needs. Make sure you test th
 | superior.island.deposit | superior.island.promote     | superior.island.teleport                 |
 | superior.island.disband | superior.island.rankup      | superior.island.toggle                   |
 </div>
-<div class=no-line-table>
+<div class=styled-table>
 
 | Admin Permissions:             |                             |                                 |                                |
 |--------------------------------|-----------------------------|---------------------------------|--------------------------------|
@@ -127,7 +127,7 @@ The core is optimized and it's designed to fit your needs. Make sure you test th
 
 <img src="./images/ssb-placeholders.png" /><br>
 Supports PlaceholderAPI (%&#60;placeholder>%) and MVdWPlaceholderAPI ({&#60;placeholder>}).
-<div class=no-line-table>
+<div class=styled-table>
 
 | Global Placeholders:                       |                                              |
 |--------------------------------------------|----------------------------------------------|
@@ -142,7 +142,7 @@ Supports PlaceholderAPI (%&#60;placeholder>%) and MVdWPlaceholderAPI ({&#60;plac
 | %superior_island_top_level_position%       | %superior_island_top_players_value_&#60;#>%  |
 | %superior_island_top_level_&#60;#>%        | %superior_island_top_players_leader_&#60;#>% |
 </div>
-<div class=no-line-table>
+<div class=styled-table>
 
 | Island Placeholders:                      |                                            |                                               |                                         |
 |-------------------------------------------|--------------------------------------------|-----------------------------------------------|-----------------------------------------|
@@ -160,7 +160,7 @@ Supports PlaceholderAPI (%&#60;placeholder>%) and MVdWPlaceholderAPI ({&#60;plac
 | %superior_island_discord_all%             | %superior_island_locked%                   | %superior_island_size_format%                 | %superior_island_y%                     |
 | %superior_island_drops_multiplier%        | %superior_island_member_&#60;#>%           | %superior_island_spawners_multiplier%         | %superior_island_z%                     |
 </div>
-<div class=no-line-table>
+<div class=styled-table>
 
 | Location Placeholders:                               |                                                        |                                                  |
 |------------------------------------------------------|--------------------------------------------------------|--------------------------------------------------|
@@ -183,7 +183,7 @@ Supports PlaceholderAPI (%&#60;placeholder>%) and MVdWPlaceholderAPI ({&#60;plac
 | %superior_island_location_is_coop%                   | %superior_island_location_raw_worth%                   |
 | %superior_island_location_is_leader%                 | %superior_island_location_raw_worth_format%            |
 </div>
-<div class=no-line-table>
+<div class=styled-table>
 
 | Player Placeholders:             |                                      |
 |----------------------------------|--------------------------------------|
@@ -195,7 +195,7 @@ Supports PlaceholderAPI (%&#60;placeholder>%) and MVdWPlaceholderAPI ({&#60;plac
 | %superior_player_schematics%     | %superior_player_border_color%       |
 | %superior_player_team_chat%      | %superior_player_missions_completed% |
 </div>
-<div class=no-line-table>
+<div class=styled-table>
 
 | Chat Placeholders:    |                           |
 |-----------------------|---------------------------|

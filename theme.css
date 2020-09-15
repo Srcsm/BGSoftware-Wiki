@@ -339,17 +339,22 @@ Custom Table Settings
 BG-Software
 */
 
-.no-line-table th:empty {
+.styled-table th:empty {
     visibility: hidden;
 }
   
-.no-line-table td, .no-line-table th {
+.styled-table td, .styled-table th {
     border: none;
     background-color: white;
 }
 
-.no-line-table table {
+.styled-table table {
     border-collapse: separate;
+}
+
+.styled-table thead {
+    text-align: left;
+    font-size: 20px;
 }
 
   
