@@ -947,3 +947,11 @@ pre:after {
 #wb-purchase:hover {
     background: #149000;
 }
+
+#sp-purchase {
+    background: #ff6bc2;
+}
+
+#sp-purchase:hover {
+    background: #cd318d;
+}
