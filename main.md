@@ -1,8 +1,16 @@
-# BG-Software's Wiki
 
-Welcome to the wiki page of BG-Software!<br>
+<center>
+<img src="./images/bg-software-logo.png" />
+</center>
+
+# Welcome to BG-Software!
+<span class="fancy-text">My name is Omer, and I am the developer of the BG-Software products.<br>
+I started developing in Java around 3 years ago, and started with minecraft plugins development around 2 years ago.<br>
+Today, I am running the BG-Software products line, and having more than 6,500 happy customers.<br>
+
 Here you can find useful information regarding all of our products, tutorials and more!<br>
 If you need help with something regarding our products, want to file a bug report or just want to say hello, make sure you join our [discord server](https://bg-software.com/discord/)!<br><br>
+</span>
 
 
 ## Contributing
