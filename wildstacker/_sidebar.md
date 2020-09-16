@@ -7,3 +7,4 @@
 
 * [Get Started](wildstacker/)
 * [Loot Tables](wildstacker/loot-tables)
+* [API Javadocs](https://bg-software.com/wildstacker/api/)

@@ -6,3 +6,4 @@
 </center>
 
 * [Get Started](wildchests/)
+* [API Javadocs](https://bg-software.com/wildchests/api/)

@@ -6,3 +6,4 @@
 </center>
 
 * [Get Started](wildtools/)
+* [API Javadocs](https://bg-software.com/wildtools/api/)

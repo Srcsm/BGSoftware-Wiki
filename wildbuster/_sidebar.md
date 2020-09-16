@@ -6,3 +6,4 @@
 </center>
 
 * [Get Started](wildbuster/)
+* [API Javadocs](https://bg-software.com/wildbuster/api/)
