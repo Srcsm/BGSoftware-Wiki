@@ -6,4 +6,8 @@
 </center>
 
 * [Get Started](wildbuster/)
+** [Description](wildbuster/?id=description)
+** [Features](wildbuster/?id=features)
+** [Commands](wildbuster/?id=commands)
+** [Permissions](wildbuster/?id=permissions)
 * [API Javadocs](https://bg-software.com/wildbuster/api/)

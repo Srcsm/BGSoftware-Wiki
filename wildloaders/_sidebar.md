@@ -6,3 +6,7 @@
 </center>
 
 * [Get Started](wildloaders/)
+** [Description](wildloaders/?id=description)
+** [Features](wildloaders/?id=features)
+** [Commands](wildloaders/?id=commands)
+** [Permissions](wildloaders/?id=permissions)

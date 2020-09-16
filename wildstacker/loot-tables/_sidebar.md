@@ -6,9 +6,9 @@
 </center>
 
 * [Get Started](wildstacker/)
-** [Description](wildstacker/?id=description)
-** [Features](wildstacker/?id=features)
-** [Commands](wildstacker/?id=commands)
-** [Permissions](wildstacker/?id=permissions)
 * [Loot Tables](wildstacker/loot-tables/)
+** [Loot-Tables](wildstacker/loot-tables/?id=loot-tables-1)
+** [Loot-Pairs](wildstacker/loot-tables/?id=loot-pairs)
+** [Loot-Items](wildstacker/loot-tables/?id=loot-items)
+** [Loot-Commands](wildstacker/loot-tables/?id=loot-commands)
 * [API Javadocs](https://bg-software.com/wildstacker/api/)

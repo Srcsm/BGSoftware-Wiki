@@ -7,13 +7,13 @@
 
 <br><br><br><br>
 
-<img src="./images/wb-description.png" /><br>
+<img src="./images/wb-description.png" id="description" /><br>
 WildBuster brings a new block to the game called "Chunk-Buster". This block can bust entire chunks in a moment without causing any lag to the server!<br>
 Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/wb-features.png" /><br>
+<img src="./images/wb-features.png" id="features" /><br>
 <div class="clean-table offset-table">
 
 |                                                                             |
@@ -30,7 +30,7 @@ Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/wb-commands.png" /><br>
+<img src="./images/wb-commands.png" id="commands" /><br>
 <div class="clean-table offset-table">
 
 |                                                                                                    |
@@ -43,7 +43,7 @@ Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/wb-permissions.png" /><br>
+<img src="./images/wb-permissions.png" id="permissions" /><br>
 <div class="clean-table offset-table">
 
 |                                                                                       |

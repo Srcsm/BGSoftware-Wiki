@@ -6,4 +6,8 @@
 </center>
 
 * [Get Started](wildchests/)
+** [Description](wildchests/?id=description)
+** [Features](wildchests/?id=features)
+** [Commands](wildchests/?id=commands)
+** [Permissions](wildchests/?id=permissions)
 * [API Javadocs](https://bg-software.com/wildchests/api/)

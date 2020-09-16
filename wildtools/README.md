@@ -7,13 +7,13 @@
 
 <br><br><br><br>
 
-<img src="./images/wt-description.png" /><br>
+<img src="./images/wt-description.png" id="description" /><br>
 WildTools brings the ability to create custom wands and tools that can be used by players. You can create Sell-Wands, Harvester Hoes, Trench Pickaxes and more!<br>
 Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/wt-features.png" /><br>
+<img src="./images/wt-features.png" id="features" /><br>
 <div class="clean-table offset-table">
 
 |                                  |
@@ -33,7 +33,7 @@ Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/wt-commands.png" /><br>
+<img src="./images/wt-commands.png" id="commands" /><br>
 <div class="clean-table offset-table">
 
 |                                                                                                    |
@@ -46,7 +46,7 @@ Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/wt-permissions.png" /><br>
+<img src="./images/wt-permissions.png" id="permissions" /><br>
 <div class="clean-table offset-table">
 
 |                                                                    |

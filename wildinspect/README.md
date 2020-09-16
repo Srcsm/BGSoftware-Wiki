@@ -5,13 +5,13 @@
 
 <br><br><br><br>
 
-<img src="./images/wi-description.png" /><br>
+<img src="./images/wi-description.png" id="description" /><br>
 WildInspect is an alternative for CoreProtect's inspect-mode. You can set required role for factions and it can be used only inside player's territories.<br>
 Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/wi-features.png" /><br>
+<img src="./images/wi-features.png" id="features" /><br>
 <div class="clean-table offset-table">
 
 |                                        |                                                                             |
@@ -30,7 +30,7 @@ Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/wi-commands.png" /><br>
+<img src="./images/wi-commands.png" id="commands" /><br>
 <div class="clean-table offset-table">
 
 |                                                                 |
@@ -40,7 +40,7 @@ Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/wi-permissions.png" /><br>
+<img src="./images/wi-permissions.png" id="permissions" /><br>
 <div class="clean-table offset-table">
 
 |                                                                |

@@ -8,13 +8,13 @@
 
 <br><br><br><br>
 
-<img src="./images/ws-description.png" /><br>
+<img src="./images/ws-description.png" id="description" /><br>
 WildStacker is suitable for servers with a lot of entities and drops which want to reduce the server-lag that they cause without changing the game experience.<br>
 Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/ws-features.png" /><br>
+<img src="./images/ws-features.png" id="features" /><br>
 <div class="clean-table aligned-titles big-titles offset-table">
 
 | Items Stacker:                             | Entities Stacker:                      | Spawners Stacker:                | Barrels Stacker (aka. Blocks Stacker): |
@@ -41,7 +41,7 @@ Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/ws-commands.png" /><br>
+<img src="./images/ws-commands.png" id="commands" /><br>
 <div class="clean-table offset-table">
 
 |                                                                                                                                                             |
@@ -60,7 +60,7 @@ Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/ws-permissions.png" /><br>
+<img src="./images/ws-permissions.png" id="permissions" /><br>
 <div class="clean-table offset-table">
 
 |                                                                                                     |

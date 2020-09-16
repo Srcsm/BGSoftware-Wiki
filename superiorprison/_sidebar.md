@@ -6,3 +6,8 @@
 </center>
 
 * [Get Started](superiorprison/)
+** [Description](superiorprison/?id=description)
+** [Features](superiorprison/?id=features)
+** [Commands](superiorprison/?id=commands)
+** [Permissions](superiorprison/?id=permissions)
+** [Placeholders](superiorprison/?id=placeholders)

@@ -7,13 +7,13 @@
 
 <br><br><br><br>
 
-<img src="./images/sp-description.png" /><br>
+<img src="./images/sp-description.png" id="description" /><br>
 SuperiorPrison is an all-in-one prison core, first of it's kind! Rankups, mines, prestiges, shops and lots of perks are inside!<br>
 Make sure you test the plugin before you purchase on **SP.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/sp-features.png" /><br>
+<img src="./images/sp-features.png" id="features" /><br>
 <div class="clean-table offset-table">
 
 |                             |
@@ -35,7 +35,7 @@ Make sure you test the plugin before you purchase on **SP.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/sp-commands.png" /><br>
+<img src="./images/sp-commands.png" id="commands" /><br>
 <span style="font-size: 20px; margin-left: 12px;"><b>Player Commands:</b></span>
 <div class="clean-table offset-table">
 
@@ -60,7 +60,7 @@ Make sure you test the plugin before you purchase on **SP.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/sp-permissions.png" /><br>
+<img src="./images/sp-permissions.png" id="permissions" /><br>
 <div class="clean-table big-titles aligned-titles offset-table">
 
 | Player Permissions:                   |                                     |
@@ -94,7 +94,7 @@ Make sure you test the plugin before you purchase on **SP.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/sp-placeholders.png" /><br>
+<img src="./images/sp-placeholders.png" id="placeholders" /><br>
 <div class="clean-table big-titles aligned-titles offset-table">
 
 | Mine Placeholders:                              |

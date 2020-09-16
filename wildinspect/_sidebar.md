@@ -6,3 +6,7 @@
 </center>
 
 * [Get Started](wildinspect/)
+** [Description](wildinspect/?id=description)
+** [Features](wildinspect/?id=features)
+** [Commands](wildinspect/?id=commands)
+** [Permissions](wildinspect/?id=permissions)

@@ -6,13 +6,13 @@
 
 <br><br><br><br>
 
-<img src="./images/wl-description.png" /><br>
+<img src="./images/wl-description.png" id="description" /><br>
 WildLoaders brings a new block to the game called "Chunk-Loader". This block can keep chunks loaded without alt accounts!<br>
 Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/wl-features.png" /><br>
+<img src="./images/wl-features.png" id="features" /><br>
 <div class="clean-table offset-table">
 
 |                              |
@@ -30,7 +30,7 @@ Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/wl-commands.png" /><br>
+<img src="./images/wl-commands.png" id="commands" /><br>
 <div class="clean-table offset-table">
 
 |                                                                            |
@@ -41,7 +41,7 @@ Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/wl-permissions.png" /><br>
+<img src="./images/wl-permissions.png" id="permissions" /><br>
 <div class="clean-table offset-table">
 
 |                                                                         |

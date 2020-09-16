@@ -7,13 +7,14 @@
 
 <br><br><br><br>
 
-<img src="./images/wc-description.png" /><br>
+
+<img src="./images/wc-description.png" id="description" /><br>
 WildChests brings more chests into the game. Sell chests, auto-crafters, global ender chests, larger chests, phisical player vaults and many more!<br>
 Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/wc-features.png" /><br>
+<img src="./images/wc-features.png" id="features" /><br>
 <div class="clean-table offset-table">
 
 |                                    |
@@ -30,7 +31,7 @@ Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/wc-commands.png" /><br>
+<img src="./images/wc-commands.png" id="commands" /><br>
 <div class="clean-table offset-table">
 
 |                                                                                     |
@@ -45,7 +46,7 @@ Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/wc-permissions.png" /><br>
+<img src="./images/wc-permissions.png" id="permissions" /><br>
 <div class="clean-table offset-table">
 
 |                                                                         |

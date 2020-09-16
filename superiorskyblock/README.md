@@ -8,13 +8,13 @@
 
 <br><br><br><br>
 
-<img src="./images/ssb-description.png" /><br>
+<img src="./images/ssb-description.png" id="description" /><br>
 SuperiorSkyblock is a modern Skyblock core that brings many tweaks and changes to the old and lovely Skyblock game-mode.<br>
 The core is optimized and it's designed to fit your needs. Make sure you test the plugin before you purchase on **SB2.BG-SOFTWARE.COM**
 
 <br><br>
 
-<img src="./images/ssb-features.png" /><br>
+<img src="./images/ssb-features.png" id="features" /><br>
 <div class="clean-table offset-table">
 
 |                                                          |
@@ -38,7 +38,7 @@ The core is optimized and it's designed to fit your needs. Make sure you test th
 
 <br><br>
 
-<img src="./images/ssb-commands.png" /><br>
+<img src="./images/ssb-commands.png" id="commands" /><br>
 <div class="clean-table big-titles aligned-titles offset-table">
 
 | Player Commands: |                  |                     |                     |                  |
@@ -82,7 +82,7 @@ The core is optimized and it's designed to fit your needs. Make sure you test th
 
 <br><br>
 
-<img src="./images/ssb-permissions.png" /><br>
+<img src="./images/ssb-permissions.png" id="permissions" /><br>
 <div class="clean-table big-titles aligned-titles offset-table">
 
 | Player Permissions:     |                             |                                          |                               |
@@ -131,7 +131,7 @@ The core is optimized and it's designed to fit your needs. Make sure you test th
 
 <br><br>
 
-<img src="./images/ssb-placeholders.png" /><br>
+<img src="./images/ssb-placeholders.png" id="placeholders" /><br>
 Supports PlaceholderAPI (%&#60;placeholder>%) and MVdWPlaceholderAPI ({&#60;placeholder>}).
 <div class="clean-table big-titles aligned-titles">
 

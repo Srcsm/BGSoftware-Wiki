@@ -6,4 +6,8 @@
 </center>
 
 * [Get Started](wildtools/)
+** [Description](wildtools/?id=description)
+** [Features](wildtools/?id=features)
+** [Commands](wildtools/?id=commands)
+** [Permissions](wildtools/?id=permissions)
 * [API Javadocs](https://bg-software.com/wildtools/api/)
