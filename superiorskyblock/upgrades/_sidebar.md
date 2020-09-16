@@ -6,11 +6,11 @@
 </center>
 
 * [Get Started](superiorskyblock/)
-* [Configuration](superiorskyblock/configuration)
+* [Configuration](superiorskyblock/configuration/)
 * [Island Settings](superiorskyblock/island-settings/)
 * [Island Permissions](superiorskyblock/island-permissions/)
-* [Schematics](superiorskyblock/schematics)
-* [Menus](superiorskyblock/menus)
+* [Schematics](superiorskyblock/schematics/)
+* [Menus](superiorskyblock/menus/)
 * [Upgrades](superiorskyblock/upgrades/)
 ** [Creating your first upgrade](superiorskyblock/upgrades/?id=creating-your-first-upgrade)
 ** [Custom Upgrades](superiorskyblock/upgrades/?id=custom-upgrades)
