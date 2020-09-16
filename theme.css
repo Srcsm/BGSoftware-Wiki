@@ -871,6 +871,11 @@ pre:after {
 .shifted-up{
     margin-top: -10px;
 }
+
+/**
+BG-Software's Purchase Buttons
+**/
+
 .purchase {
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -955,3 +960,19 @@ pre:after {
 #sp-purchase:hover {
     background: #cd318d;
 }
+
+/**
+BG-Software's Purchase Buttons
+**/
+
+/**
+BG-Software's Custom Font
+**/
+
+*{
+    font-family: 'Montserrat';
+}
+
+/**
+BG-Software's Custom Font
+**/
