@@ -7,7 +7,7 @@
   Today, I am running the BG-Software products line, and having more than 6,500 happy customers.<br>
 </div>
 
-[Support Discord](https://github.com/docsifyjs/docsify/)
+[Support Discord](https://bg-software.com/discord/)
 [Get Started](home/)
 
 
