@@ -92,6 +92,11 @@ li input[type="checkbox"] {
 .app-nav.no-badge {
     margin-right: 25px;
 }
+
+.app-nav.no-badge.hidden {
+    display: none;
+}
+
 .app-nav p {
     margin: 0;
 }
@@ -351,7 +356,7 @@ BG-Software
 .clean-table th:empty {
     visibility: hidden;
 }
-  
+
 .clean-table td,
 .clean-table th {
     border: none;
@@ -976,3 +981,7 @@ BG-Software's Custom Font
 /**
 BG-Software's Custom Font
 **/
+
+.cover-text {
+  font-size: 19px
+}

@@ -30,7 +30,7 @@
 </head>
 <body>
   <nav>
-    <a href="#" class="home-icon"><img src="./images/website-icon.png" width=16 height=16 class="navIcon">Home</a>
+    <a href="#/home/" class="home-icon"><img src="./images/website-icon.png" width=16 height=16 class="navIcon">Home</a>
     <a href="#/wildinspect/" class="wildinspect-icon"><img src="./images/wildinspect-icon.png" width=16 height=16 class="navIcon wildinspectIcon">WildInspect</a>
     <a href="#/wildbuster/" class="wildbuster-icon"><img src="./images/wildbuster-icon.png" width=16 height=16 class="navIcon">WildBuster</a>
     <a href="#/wildstacker/" class="wildstacker-icon"><img src="./images/wildstacker-icon.png" width=16 height=16 class="navIcon wildstackerIcon">WildStacker</a>
@@ -45,7 +45,9 @@
     window.$docsify = {
       search: 'auto',
       homepage: 'main.md',
-      loadSidebar: true
+      loadSidebar: true,
+      coverpage: true,
+      onlyCover: true
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
