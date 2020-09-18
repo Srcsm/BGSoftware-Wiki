@@ -47,6 +47,12 @@ An example can be seen here:
 Every line represents a command, and must not contain the slash at the start.<br>
 If you want the player to execute the command (and not console), add "PLAYER:" at the start of the line.<br></div>
 
+### Permissions Section
+<div style="margin-top: -10px;">This section holds all the permissions for items. Every permission should follow the following format:<br>
+<u>permissions.&#60;ch>.permission</u>: The required permission for the player.<br>
+<u>permissions.&#60;ch>.no-access-sound</u>: The sound that will be played when the player permission doesn't have the permission to use the item.<br>
+&ensp;&ensp;&ensp;&ensp;The sound section should follow the sounds format.
+
 ### Common Sections
 <div style="margin-top: -10px;">Here's a list of common sections that many menus can have.<br>
 <u>previous-page</u>: Set the char of the previous-page button.<br>
@@ -105,7 +111,8 @@ These items have some additional sections:<br>
 &ensp;&ensp;&ensp;&ensp;<u>can-complete</u>: - The sound that will be played when the mission can be completed.<br></div>
 
 ### Island Rate Menu
-<div style="margin-top: -10px;"><u>one-star</u>: Set the char of the one star button.<br>
+<div style="margin-top: -10px;"><u>zero-stars</u>: Set the char of the zero stars button.<br>
+<u>one-star</u>: Set the char of the one star button.<br>
 <u>two-stars</u>: Set the char of the two stars button.<br>
 <u>three-stars</u>: Set the char of the three stars button.<br>
 <u>four-stars</u>: Set the char of the four stars button.<br>
