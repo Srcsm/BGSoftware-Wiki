@@ -1,6 +1,7 @@
 <style>
   .navIcon { vertical-align: bottom; margin-right: 5px; }
-  .app-nav a { vertical-align: bottom; display: inline; margin: 0 1rem; padding: 5px 0; }
+  .app-nav ul { vertical-align: bottom; display: inline; margin: 0; }
+  .app-nav a { padding: 5px 0;}
   .home-icon:hover, .home-icon.active { color:gray !important; }
   .home-icon.active { border-bottom: 2px solid gray !important; }
   .wildstacker-icon:hover, .wildstacker-icon.active { color: #D8AC14 !important; }
@@ -21,12 +22,12 @@
   .superiorprison-icon.active { border-bottom: 2px solid #EE7EEA !important; }
 </style>
 
-<a href="#/home/" class="home-icon"><img src="./images/website-icon.png" width=16 height=16 class="navIcon">Home</a>
-<a href="#/wildinspect/" class="wildinspect-icon"><img src="./images/wildinspect-icon.png" width=16 height=16 class="navIcon wildinspectIcon">WildInspect</a>
-<a href="#/wildbuster/" class="wildbuster-icon"><img src="./images/wildbuster-icon.png" width=16 height=16 class="navIcon">WildBuster</a>
-<a href="#/wildstacker/" class="wildstacker-icon"><img src="./images/wildstacker-icon.png" width=16 height=16 class="navIcon wildstackerIcon">WildStacker</a>
-<a href="#/wildtools/" class="wildtools-icon"><img src="./images/wildtools-icon.png" width=16 height=16 class="navIcon">WildTools</a>
-<a href="#/wildchests/" class="wildchests-icon"><img src="./images/wildchests-icon.png" width=16 height=16 class="navIcon">WildChests</a>
-<a href="#/wildloaders/" class="wildloaders-icon"><img src="./images/wildloaders-icon.png" width=16 height=16 class="navIcon">WildLoaders</a>
-<a href="#/superiorskyblock/" class="superiorskyblock-icon"><img src="./images/superiorskyblock-icon.png" width=16 height=16 class="navIcon">SuperiorSkyblock2</a>
-<a href="#/superiorprison/" class="superiorprison-icon"><img src="./images/superiorprison-icon.png" width=16 height=16 class="navIcon">SuperiorPrison</a>
+* [![](https://wiki.bg-software.com/images/website-icon.png ':size=16x16 :class=navIcon') Home](home/ ':class=home-icon')
+* [![](https://wiki.bg-software.com/images/wildinspect-icon.png ':size=16x16 :class=navIcon') WildInspect](wildinspect/ ':class=wildinspect-icon')
+* [![](https://wiki.bg-software.com/images/wildbuster-icon.png ':size=16x16 :class=navIcon') WildBuster](wildbuster/ ':class=wildbuster-icon')
+* [![](https://wiki.bg-software.com/images/wildstacker-icon.png ':size=16x16 :class=navIcon') WildStacker](wildstacker/ ':class=wildstacker-icon')
+* [![](https://wiki.bg-software.com/images/wildtools-icon.png ':size=16x16 :class=navIcon') WildTools](wildtools/ ':class=wildtools-icon')
+* [![](https://wiki.bg-software.com/images/wildchests-icon.png ':size=16x16 :class=navIcon') WildChests](wildchests/ ':class=wildchests-icon')
+* [![](https://wiki.bg-software.com/images/wildloaders-icon.png ':size=16x16 :class=navIcon') WildLoaders](wildloaders/ ':class=wildloaders-icon')
+* [![](https://wiki.bg-software.com/images/superiorskyblock-icon.png ':size=16x16 :class=navIcon') SuperiorSkyblock2](superiorskyblock/ ':class=superiorskyblock-icon')
+* [![](https://wiki.bg-software.com/images/superiorprison-icon.png ':size=16x16 :class=navIcon') SuperiorSkyblock2](superiorprison/ ':class=superiorprison-icon')

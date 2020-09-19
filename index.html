@@ -16,17 +16,6 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
 <body>
-  <!-- <nav>
-    <a href="#/home/" class="home-icon"><img src="./images/website-icon.png" width=16 height=16 class="navIcon">Home</a>
-    <a href="#/wildinspect/" class="wildinspect-icon"><img src="./images/wildinspect-icon.png" width=16 height=16 class="navIcon wildinspectIcon">WildInspect</a>
-    <a href="#/wildbuster/" class="wildbuster-icon"><img src="./images/wildbuster-icon.png" width=16 height=16 class="navIcon">WildBuster</a>
-    <a href="#/wildstacker/" class="wildstacker-icon"><img src="./images/wildstacker-icon.png" width=16 height=16 class="navIcon wildstackerIcon">WildStacker</a>
-    <a href="#/wildtools/" class="wildtools-icon"><img src="./images/wildtools-icon.png" width=16 height=16 class="navIcon">WildTools</a>
-    <a href="#/wildchests/" class="wildchests-icon"><img src="./images/wildchests-icon.png" width=16 height=16 class="navIcon">WildChests</a>
-    <a href="#/wildloaders/" class="wildloaders-icon"><img src="./images/wildloaders-icon.png" width=16 height=16 class="navIcon">WildLoaders</a>
-    <a href="#/superiorskyblock/" class="superiorskyblock-icon"><img src="./images/superiorskyblock-icon.png" width=16 height=16 class="navIcon">SuperiorSkyblock2</a>
-    <a href="#/superiorprison/" class="superiorprison-icon"><img src="./images/superiorprison-icon.png" width=16 height=16 class="navIcon">SuperiorPrison</a>
-  </nav> -->
   <div id="app"></div>
   <script>
     window.$docsify = {
@@ -36,7 +25,8 @@
       themeColor: '#f5c255',
       onlyCover: true,
       relativePath: false,
-      loadNavbar: '_navbar.html',
+      loadNavbar: true,
+      mergeNavbar: true,
       loadNavbarOnCover: false,
       bgsoftwareColors: {
         'home': 'gray',
@@ -67,6 +57,10 @@
 
 
   </script>
+  <!--
+  This local javascript file is temporary until they release 
+  the actual docsify version for 'loadNavbarOnCover'
+  -->
   <script src="./docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.21.0/components/prism-json.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.21.0/components/prism-yaml.min.js"></script>
