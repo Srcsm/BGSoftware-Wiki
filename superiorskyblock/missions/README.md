@@ -159,6 +159,7 @@ There are more settings that can be applied to all the missions:<br>
 <u>island</u>: Whether or not the mission should be an islands mission (mission that is synced with all island members).<br>
 <u>auto-reward</u>: Whether or not the plugin should reward the players without them doing it in the missions menu.<br>
 <u>disband-reset</u>: Whether or not the mission should be reset when disbanding the island (used for player-missions).<br>
+<u>leave-reset</u>: Whether or not the mission should be reset when leaving an island (used for player-missions).<br>
 <u>reset-amount</u>: The amount of times a mission can be completed.<br>
 <u>rewards.items</u>: A list of items that will be given to players when they complete the mission.<br>
 <u>rewards.commands</u>: A list of commands that will be executed when players complete the mission.<br>
