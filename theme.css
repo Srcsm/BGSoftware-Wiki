@@ -985,3 +985,7 @@ BG-Software's Custom Font
 .cover-text {
   font-size: 19px
 }
+
+.offset-para{
+    margin-top: -10px;
+}
