@@ -14,22 +14,9 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="./theme.css">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
-  <style>
-    .navIcon { vertical-align: bottom; margin-right: 5px; }
-    .app-nav a { vertical-align: bottom; display: inline; }
-    .home-icon:hover { color:gray !important; }
-    .wildstacker-icon:hover { color: #D8AC14 !important; }
-    .wildinspect-icon:hover { color: #F72D40 !important; }
-    .wildtools-icon:hover { color: #26D7E2 !important; }
-    .wildbuster-icon:hover { color: #2CAD17 !important; }
-    .wildchests-icon:hover { color: #A800FF !important; }
-    .wildloaders-icon:hover { color: #b3cf17 !important; }
-    .superiorskyblock-icon:hover { color: #4E87EE !important; }
-    .superiorprison-icon:hover { color: #EE7EEA !important; }
-  </style>
 </head>
 <body>
-  <nav>
+  <!-- <nav>
     <a href="#/home/" class="home-icon"><img src="./images/website-icon.png" width=16 height=16 class="navIcon">Home</a>
     <a href="#/wildinspect/" class="wildinspect-icon"><img src="./images/wildinspect-icon.png" width=16 height=16 class="navIcon wildinspectIcon">WildInspect</a>
     <a href="#/wildbuster/" class="wildbuster-icon"><img src="./images/wildbuster-icon.png" width=16 height=16 class="navIcon">WildBuster</a>
@@ -39,18 +26,48 @@
     <a href="#/wildloaders/" class="wildloaders-icon"><img src="./images/wildloaders-icon.png" width=16 height=16 class="navIcon">WildLoaders</a>
     <a href="#/superiorskyblock/" class="superiorskyblock-icon"><img src="./images/superiorskyblock-icon.png" width=16 height=16 class="navIcon">SuperiorSkyblock2</a>
     <a href="#/superiorprison/" class="superiorprison-icon"><img src="./images/superiorprison-icon.png" width=16 height=16 class="navIcon">SuperiorPrison</a>
-  </nav>
+  </nav> -->
   <div id="app"></div>
   <script>
     window.$docsify = {
       search: 'auto',
-      homepage: 'main.md',
       loadSidebar: true,
       coverpage: true,
-      onlyCover: true
+      themeColor: '#f5c255',
+      onlyCover: true,
+      relativePath: false,
+      loadNavbar: '_navbar.html',
+      loadNavbarOnCover: false,
+      bgsoftwareColors: {
+        'home': 'gray',
+        'wildinspect': '#F72D40',
+        'wildbuster': '#2CAD17',
+        'wildstacker': '#D8AC14',
+        'wildtools': '#26D7E2',
+        'wildchests': '#A800FF',
+        'wildloaders': '#b3cf17',
+        'superiorskyblock': '#4E87EE',
+        'superiorprison': '#EE7EEA'
+      },
+      plugins: [
+        function(hook, vm) {
+          hook.afterEach((html, next) => {
+            let pathName = new RegExp("\/(.*?)\/").exec(vm.route.path)[1];
+            if (pathName in vm.config.bgsoftwareColors) {
+              document.documentElement.style.setProperty('--theme-color', vm.config.bgsoftwareColors[pathName]);
+            } else {
+              document.documentElement.style.setProperty('--theme-color', vm.config.themeColor);
+            }
+            next(html)
+          })
+
+        }
+      ]
     }
+
+
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="./docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.21.0/components/prism-json.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.21.0/components/prism-yaml.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.21.0/components/prism-java.min.js"></script>
