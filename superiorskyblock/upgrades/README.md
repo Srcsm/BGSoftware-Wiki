@@ -38,9 +38,10 @@ For this tutorial, I will change the generator rates using the "generator-rates"
     - 'island admin setupgrade %player% island-generators 2'
     - 'island admin msgall %player% &e&lUpgrade | &7%player% upgraded your generators to level 2!'
   generator-rates:
-    STONE: 85
-    COAL_ORE: 10
-    IRON_ORE: 5 
+    normal:      # The world environment. Can use normal, nether or the_end.
+      STONE: 85
+      COAL_ORE: 10
+      IRON_ORE: 5 
 ```
 
 That's it! We completed our first level! Because this is the first level of the upgrade, it will be applied to all the islands by default.<br>
@@ -55,29 +56,32 @@ upgrades:
         - 'island admin setupgrade %player% island-generators 2'
         - 'island admin msgall %player% &e&lUpgrade | &7%player% upgraded your generators to level 2!'
       generator-rates:
-        STONE: 85
-        COAL_ORE: 10
-        IRON_ORE: 5 
+        normal:
+          STONE: 85
+          COAL_ORE: 10
+          IRON_ORE: 5 
     '2':
       price: 150000.0
       commands:
         - 'island admin setupgrade %player% island-generators 3'
         - 'island admin msgall %player% &e&lUpgrade | &7%player% upgraded your generators to level 3!'
       generator-rates:
-        STONE: 70
-        COAL_ORE: 15
-        IRON_ORE: 10
-        DIAMOND_ORE: 5
+        normal:
+          STONE: 70
+          COAL_ORE: 15
+          IRON_ORE: 10
+          DIAMOND_ORE: 5
     '3':
       price: 300000.0
       commands:
         - 'island admin setupgrade %player% island-generators 4'
         - 'island admin msgall %player% &e&lUpgrade | &7%player% upgraded your generators to level 4!'
       generator-rates:
-        STONE: 50
-        COAL_ORE: 25
-        IRON_ORE: 15
-        DIAMOND_ORE: 10
+        normal:
+          STONE: 50
+          COAL_ORE: 25
+          IRON_ORE: 15
+          DIAMOND_ORE: 10
 ```
 After I configured all of my levels, I must also add the last upgrade - level #4.<br>
 Unlike the other upgrades, this upgrade will not have the setupgrade command, but will still have values assigned to it:<br>
@@ -87,8 +91,9 @@ Unlike the other upgrades, this upgrade will not have the setupgrade command, bu
   commands:
     - 'island admin msg %player% &c&lError | &7You have reached the maximum upgrade for island generators.'
   generator-rates:
-    EMERALD_ORE: 50
-    DIAMOND_ORE: 50
+    normal:
+      EMERALD_ORE: 50
+      DIAMOND_ORE: 50
 ```
 Finally, I have a working generator upgrade that will have it's values synced with all the islands.<br>
 You can change the values anytime you want, and your islands will be synced automatically with it.<br>
