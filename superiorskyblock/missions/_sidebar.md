@@ -17,4 +17,5 @@
 ** [Default mission jars](superiorskyblock/missions/?id=default-mission-jars)
 ** [Customize your first mission](superiorskyblock/missions/?id=customize-your-first-mission)
 ** [Create your own mission jar](superiorskyblock/missions/?id=create-your-own-mission-jar)
+* [API Javadocs](https://bg-software.com/superiorskyblock/api/)
 * [API](superiorskyblock/api/)
