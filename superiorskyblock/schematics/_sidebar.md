@@ -18,3 +18,4 @@
 * [Missions](superiorskyblock/missions/)
 * [API Javadocs](https://bg-software.com/superiorskyblock/api/)
 * [API](superiorskyblock/api/)
+* [Addons](superiorskyblock/addons/)

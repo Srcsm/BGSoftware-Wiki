@@ -20,3 +20,4 @@
 ** [Register your own block-keys](superiorskyblock/api/?id=register-your-own-block-keys)
 ** [Create your own island setting](superiorskyblock/island-settings/?id=create-your-own-setting)
 ** [Create your own island permission](superiorskyblock/island-permissions/?id=create-your-own-permission)
+* [Addons](superiorskyblock/addons/)

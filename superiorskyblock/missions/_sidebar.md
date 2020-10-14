@@ -19,3 +19,4 @@
 ** [Create your own mission jar](superiorskyblock/missions/?id=create-your-own-mission-jar)
 * [API Javadocs](https://bg-software.com/superiorskyblock/api/)
 * [API](superiorskyblock/api/)
+* [Addons](superiorskyblock/addons/)

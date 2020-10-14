@@ -6,11 +6,6 @@
 </center>
 
 * [Get Started](superiorskyblock/)
-** [Description](superiorskyblock/?id=description)
-** [Features](superiorskyblock/?id=features)
-** [Commands](superiorskyblock/?id=commands)
-** [Permissions](superiorskyblock/?id=permissions)
-** [Placeholders](superiorskyblock/?id=placeholders)
 * [Configuration](superiorskyblock/configuration/)
 * [Island Settings](superiorskyblock/island-settings/)
 * [Island Permissions](superiorskyblock/island-permissions/)
@@ -21,3 +16,6 @@
 * [API Javadocs](https://bg-software.com/superiorskyblock/api/)
 * [API](superiorskyblock/api/)
 * [Addons](superiorskyblock/addons/)
+** [SlimeWorldManager Addon](superiorskyblock/addons/?id=slimeworldmanager-addon)
+** [OneBlock Addon](superiorskyblock/addons/?id=oneblock-addon)
+** [AcidIslands Addon](superiorskyblock/addons/?id=acidislands-addon)
