@@ -63,14 +63,14 @@ The core is optimized and it's designed to fit your needs. Make sure you test th
 | /island admin add             | /island admin close    | /island admin reload           | /island admin setsettings     |
 | /island admin addblocklimit   | /island admin count    | /island admin removeblocklimit | /island admin setsize         |
 | /island admin addbonus        | /island admin delwarp  | /island admin removeratings    | /island admin setspawn        |
-| /island admin addcooplimit    | /island admin demote   | /island admin schematic        | /island admin setspawnerrates |
-| /island admin addcropgrowth   | /island admin deposit  | /island admin setblockamount   | /island admin setteamlimit    |
-| /island admin adddisbands     | /island admin disband  | /island admin setblocklimit    | /island admin settings        |
-| /island admin addeffect       | /island admin ignore   | /island admin setchestrow      | /island admin setupgrade      |
-| /island admin addentitylimit  | /island admin join     | /island admin setcooplimit     | /island admin setwarpslimit   |
-| /island admin addgenerator    | /island admin kick     | /island admin setcropgrowth    | /island admin show            |
-| /island admin addmobdrops     | /island admin mission  | /island admin setdisbands      | /island admin spawn           |
-| /island admin addsize         | /island admin msg      | /island admin setgenerator     | /island admin spy             |
+| /island admin addcooplimit    | /island admin demote   | /island admin resetworld       | /island admin setspawnerrates |
+| /island admin addcropgrowth   | /island admin deposit  | /island admin schematic        | /island admin setteamlimit    |
+| /island admin adddisbands     | /island admin disband  | /island admin setblockamount   | /island admin settings        |
+| /island admin addeffect       | /island admin ignore   | /island admin setblocklimit    | /island admin setupgrade      |
+| /island admin addentitylimit  | /island admin join     | /island admin setchestrow      | /island admin setwarpslimit   |
+| /island admin addgenerator    | /island admin kick     | /island admin setcooplimit     | /island admin show            |
+| /island admin addmobdrops     | /island admin mission  | /island admin setcropgrowth    | /island admin spawn           |
+| /island admin addsize         | /island admin msg      | /island admin setdisbands      | /island admin spy             |
 | /island admin addspawnerrates | /island admin msgall   | /island admin seteffect        | /island admin stats           |
 | /island admin addteamlimit    | /island admin name     | /island admin setentitylimit   | /island admin syncupgrades    |
 | /island admin addwarpslimit   | /island admin open     | /island admin setgenerator     | /island admin teleport        |
@@ -113,13 +113,13 @@ The core is optimized and it's designed to fit your needs. Make sure you test th
 | superior.admin.add             | superior.admin.delwarp      | superior.admin.removeblocklimit | superior.admin.setspawn        |
 | superior.admin.addblocklimit   | superior.admin.demote       | superior.admin.removeratings    | superior.admin.setspawnerrates |
 | superior.admin.addbonus        | superior.admin.deposit      | superior.admin.schematic        | superior.admin.setteamlimit    |
-| superior.admin.addcooplimit    | superior.admin.disband      | superior.admin.setblockamount   | superior.admin.settings        |
-| superior.admin.addcropgrowth   | superior.admin.givedisbands | superior.admin.setblocklimit    | superior.admin.setupgrade      |
-| superior.admin.addeffect       | superior.admin.ignore       | superior.admin.setchestrow      | superior.admin.setwarpslimit   |
-| superior.admin.addentitylimit  | superior.admin.join         | superior.admin.setcooplimit     | superior.admin.show            |
-| superior.admin.addgenerator    | superior.admin.kick         | superior.admin.setcropgrowth    | superior.admin.spawn           |
-| superior.admin.addmobdrops     | superior.admin.mission      | superior.admin.setdisbands      | superior.admin.spy             |
-| superior.admin.addsize         | superior.admin.msg          | superior.admin.setgenerator     | superior.admin.stats           |
+| superior.admin.addcooplimit    | superior.admin.disband      | superior.admin.resetworld       | superior.admin.settings        |
+| superior.admin.addcropgrowth   | superior.admin.givedisbands | superior.admin.setblockamount   | superior.admin.setupgrade      |
+| superior.admin.addeffect       | superior.admin.ignore       | superior.admin.setblocklimit    | superior.admin.setwarpslimit   |
+| superior.admin.addentitylimit  | superior.admin.join         | superior.admin.setchestrow      | superior.admin.show            |
+| superior.admin.addgenerator    | superior.admin.kick         | superior.admin.setcooplimit     | superior.admin.spawn           |
+| superior.admin.addmobdrops     | superior.admin.mission      | superior.admin.setcropgrowth    | superior.admin.spy             |
+| superior.admin.addsize         | superior.admin.msg          | superior.admin.setdisbands      | superior.admin.stats           |
 | superior.admin.addspawnerrates | superior.admin.msgall       | superior.admin.seteffect        | superior.admin.syncupgrades    |
 | superior.admin.addteamlimit    | superior.admin.name         | superior.admin.setentitylimit   | superior.admin.teleport        |
 | superior.admin.addwarpslimit   | superior.admin.open         | superior.admin.setgenerator     | superior.admin.unignore        |
