@@ -12,6 +12,7 @@
 ** [Permissions](superiorskyblock/?id=permissions)
 ** [Placeholders](superiorskyblock/?id=placeholders)
 * [Configuration](superiorskyblock/configuration/)
+* [Messages](superiorskyblock/messages/)
 * [Island Settings](superiorskyblock/island-settings/)
 * [Island Permissions](superiorskyblock/island-permissions/)
 * [Schematics](superiorskyblock/schematics/)

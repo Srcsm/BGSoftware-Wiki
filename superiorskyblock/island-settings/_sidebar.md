@@ -7,6 +7,7 @@
 
 * [Get Started](superiorskyblock/)
 * [Configuration](superiorskyblock/configuration/)
+* [Messages](superiorskyblock/messages/)
 * [Island Settings](superiorskyblock/island-settings/)
 ** [Built-in settings](superiorskyblock/island-settings/?id=built-in-settings)
 ** [Create your own setting](superiorskyblock/island-settings/?id=create-your-own-setting)
