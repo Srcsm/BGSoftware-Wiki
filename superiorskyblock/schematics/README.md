@@ -11,7 +11,7 @@ Then, select two blocks using a golden axe, and stand where you want the telepor
 The last thing to do is to run /is admin schematic , which will create the schematic file for you.<br>
 This task might be a bit slow, so don't do it while having many players online.<br>
 
-##### Creating a Sign
+#### Creating a Sign
 To create a sign that will appear on the island - you have two options:<br>
 1. You can create a sign when you create the schematic
 2. You can place a sign on the island when you create a schematic and edit the `default-signs` option in the `config.yml`.
