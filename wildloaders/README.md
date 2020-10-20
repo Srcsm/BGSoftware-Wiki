@@ -35,8 +35,8 @@ Make sure you test the plugin before you purchase on **WILD.BG-SOFTWARE.COM**
 
 |                                                                            |
 |----------------------------------------------------------------------------|
-| /loaders give [amount] [time] - Gives a chunk loader to a specific player. |
-| /loaders list - Show all the available chunk loaders.                      |
+| /loader give [amount] [time] - Gives a chunk loader to a specific player. |
+| /loader list - Show all the available chunk loaders.                      |
 </div>
 
 <br><br>
