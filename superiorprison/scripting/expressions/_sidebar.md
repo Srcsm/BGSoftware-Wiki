@@ -16,3 +16,5 @@
   * [Maths](superiorprison/scripting/maths)
   * [Expressions](superiorprison/scripting/expressions/)
     * [Conditions](superiorprison/scripting/expressions/conditions)
+    * [Getters](superiorprison/scripting/expressions/getters)
+    * [Taker](superiorprison/scripting/expressions/taker)
