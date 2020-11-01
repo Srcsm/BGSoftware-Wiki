@@ -353,6 +353,10 @@ Custom Table Settings
 BG-Software
 */
 
+.superiorprison-clean-table th:empty {
+  visibility: hidden;
+}
+
 .clean-table th:empty {
     visibility: hidden;
 }
