@@ -42,11 +42,15 @@
       plugins: [
         function(hook, vm) {
           hook.afterEach((html, next) => {
-            let pathName = new RegExp("\/(.*?)\/").exec(vm.route.path)[1];
-            if (pathName in vm.config.bgsoftwareColors) {
-              document.documentElement.style.setProperty('--theme-color', vm.config.bgsoftwareColors[pathName]);
-            } else {
+            if (vm.route.path === "/") {
               document.documentElement.style.setProperty('--theme-color', vm.config.themeColor);
+            } else {
+              let pathName = new RegExp("\/(.*?)\/").exec(vm.route.path)[1];
+              if (pathName in vm.config.bgsoftwareColors) {
+                document.documentElement.style.setProperty('--theme-color', vm.config.bgsoftwareColors[pathName]);
+              } else {
+                document.documentElement.style.setProperty('--theme-color', vm.config.themeColor);
+              }
             }
             next(html)
           })
