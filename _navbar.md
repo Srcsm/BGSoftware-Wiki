@@ -22,7 +22,7 @@
   .superiorprison-icon.active { border-bottom: 2px solid #EE7EEA !important; }
 </style>
 
-* [![](https://wiki.bg-software.com/images/website-icon.png ':size=16x16 :class=navIcon') Home](home/ ':class=home-icon')
+* [![](https://wiki.bg-software.com/images/website-icon.png ':size=16x16 :class=navIcon') Home](/ ':class=home-icon')
 * [![](https://wiki.bg-software.com/images/wildinspect-icon.png ':size=16x16 :class=navIcon') WildInspect](wildinspect/ ':class=wildinspect-icon')
 * [![](https://wiki.bg-software.com/images/wildbuster-icon.png ':size=16x16 :class=navIcon') WildBuster](wildbuster/ ':class=wildbuster-icon')
 * [![](https://wiki.bg-software.com/images/wildstacker-icon.png ':size=16x16 :class=navIcon') WildStacker](wildstacker/ ':class=wildstacker-icon')
