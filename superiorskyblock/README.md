@@ -125,7 +125,7 @@ The core is optimized and it's designed to fit your needs. Make sure you test th
 | superior.admin.addwarpslimit             | superior.admin.name           | superior.admin.setentitylimit   | superior.admin.teleport        |
 | superior.admin.bonus                     | superior.admin.open           | superior.admin.setgenerator     | superior.admin.unignore        |
 | superior.admin.bypass                    | superior.admin.openmenu       | superior.admin.setleader        | superior.admin.withdraw        |
-| superior.admin.bypass.<island_privilege> | superior.admin.promote        | superior.admin.setmobdrops      | superior.admin.world           |
+| superior.admin.bypass.&#60;island_privilege> | superior.admin.promote        | superior.admin.setmobdrops      | superior.admin.world           |
 | superior.admin.chest                     | superior.admin.purge          | superior.admin.setpermission    |
 </div>
 
