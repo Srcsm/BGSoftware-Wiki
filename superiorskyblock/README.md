@@ -106,27 +106,27 @@ The core is optimized and it's designed to fit your needs. Make sure you test th
 </div>
 <div class="clean-table big-titles aligned-titles">
 
-| Admin Permissions:             |                             |                                 |                                |
-|--------------------------------|-----------------------------|---------------------------------|--------------------------------|
-| superior.admin.*               | superior.admin.close        | superior.admin.recalc           | superior.admin.setsettings     |
-| superior.admin                 | superior.admin.count        | superior.admin.reload           | superior.admin.setsize         |
-| superior.admin.add             | superior.admin.delwarp      | superior.admin.removeblocklimit | superior.admin.setspawn        |
-| superior.admin.addblocklimit   | superior.admin.demote       | superior.admin.removeratings    | superior.admin.setspawnerrates |
-| superior.admin.addbonus        | superior.admin.deposit      | superior.admin.schematic        | superior.admin.setteamlimit    |
-| superior.admin.addcooplimit    | superior.admin.disband      | superior.admin.resetworld       | superior.admin.settings        |
-| superior.admin.addcropgrowth   | superior.admin.givedisbands | superior.admin.setblockamount   | superior.admin.setupgrade      |
-| superior.admin.addeffect       | superior.admin.ignore       | superior.admin.setblocklimit    | superior.admin.setwarpslimit   |
-| superior.admin.addentitylimit  | superior.admin.join         | superior.admin.setchestrow      | superior.admin.show            |
-| superior.admin.addgenerator    | superior.admin.kick         | superior.admin.setcooplimit     | superior.admin.spawn           |
-| superior.admin.addmobdrops     | superior.admin.mission      | superior.admin.setcropgrowth    | superior.admin.spy             |
-| superior.admin.addsize         | superior.admin.msg          | superior.admin.setdisbands      | superior.admin.stats           |
-| superior.admin.addspawnerrates | superior.admin.msgall       | superior.admin.seteffect        | superior.admin.syncupgrades    |
-| superior.admin.addteamlimit    | superior.admin.name         | superior.admin.setentitylimit   | superior.admin.teleport        |
-| superior.admin.addwarpslimit   | superior.admin.open         | superior.admin.setgenerator     | superior.admin.unignore        |
-| superior.admin.bonus           | superior.admin.openmenu     | superior.admin.setleader        | superior.admin.withdraw        |
-| superior.admin.bypass          | superior.admin.promote      | superior.admin.setmobdrops      | superior.admin.world           |
-| superior.admin.chest           | superior.admin.purge        | superior.admin.setpermission    |
-| superior.admin.cleargenerator  | superior.admin.rankup       | superior.admin.setrate          |
+| Admin Permissions:                       |                               |                                 |                                |
+|------------------------------------------|-------------------------------|---------------------------------|--------------------------------|
+| superior.admin.*                         | superior.admin.cleargenerator | superior.admin.rankup           | superior.admin.setrate         |
+| superior.admin                           | superior.admin.close          | superior.admin.recalc           | superior.admin.setsettings     |
+| superior.admin.add                       | superior.admin.count          | superior.admin.reload           | superior.admin.setsize         |
+| superior.admin.addblocklimit             | superior.admin.delwarp        | superior.admin.removeblocklimit | superior.admin.setspawn        |       
+| superior.admin.addbonus                  | superior.admin.deposit        | superior.admin.removeratings    | superior.admin.setspawnerrates |
+| superior.admin.addcooplimit              | superior.admin.demote         | superior.admin.schematic        | superior.admin.setteamlimit    |
+| superior.admin.addcropgrowth             | superior.admin.disband        | superior.admin.resetworld       | superior.admin.settings        |
+| superior.admin.addeffect                 | superior.admin.givedisbands   | superior.admin.setblockamount   | superior.admin.setupgrade      |
+| superior.admin.addentitylimit            | superior.admin.ignore         | superior.admin.setblocklimit    | superior.admin.setwarpslimit   |
+| superior.admin.addgenerator              | superior.admin.join           | superior.admin.setchestrow      | superior.admin.show            |
+| superior.admin.addmobdrops               | superior.admin.kick           | superior.admin.setcooplimit     | superior.admin.spawn           |
+| superior.admin.addsize                   | superior.admin.mission        | superior.admin.setcropgrowth    | superior.admin.spy             |
+| superior.admin.addspawnerrates           | superior.admin.msg            | superior.admin.setdisbands      | superior.admin.stats           |
+| superior.admin.addteamlimit              | superior.admin.msgall         | superior.admin.seteffect        | superior.admin.syncupgrades    |
+| superior.admin.addwarpslimit             | superior.admin.name           | superior.admin.setentitylimit   | superior.admin.teleport        |
+| superior.admin.bonus                     | superior.admin.open           | superior.admin.setgenerator     | superior.admin.unignore        |
+| superior.admin.bypass                    | superior.admin.openmenu       | superior.admin.setleader        | superior.admin.withdraw        |
+| superior.admin.bypass.<island_privilege> | superior.admin.promote        | superior.admin.setmobdrops      | superior.admin.world           |
+| superior.admin.chest                     | superior.admin.purge          | superior.admin.setpermission    |
 </div>
 
 <br><br>
