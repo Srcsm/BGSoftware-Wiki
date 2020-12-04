@@ -12,3 +12,6 @@
 ** [Permissions](superiorprison/?id=permissions)
 ** [Placeholders](superiorprison/?id=placeholders)
 * [Scripting](superiorprison/scripting/)
+  * [About Scripting](superiorprison/scripting/?id=what-is-scripting-where-can-we-use-scripting)
+  * [Maths](superiorprison/scripting/maths)
+  * [Expressions](superiorprison/scripting/expressions/)
