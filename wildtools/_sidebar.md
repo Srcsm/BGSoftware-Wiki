@@ -10,4 +10,4 @@
 ** [Features](wildtools/?id=features)
 ** [Commands](wildtools/?id=commands)
 ** [Permissions](wildtools/?id=permissions)
-* [API Javadocs](https://bg-software.com/wildtools/api/)
+* [API Javadocs](https://bg-software.com/api-docs/wildtools/)

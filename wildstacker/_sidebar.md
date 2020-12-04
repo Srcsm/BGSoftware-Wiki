@@ -11,4 +11,4 @@
 ** [Commands](wildstacker/?id=commands)
 ** [Permissions](wildstacker/?id=permissions)
 * [Loot Tables](wildstacker/loot-tables/)
-* [API Javadocs](https://bg-software.com/wildstacker/api/)
+* [API Javadocs](https://bg-software.com/api-docs/wildstacker/)

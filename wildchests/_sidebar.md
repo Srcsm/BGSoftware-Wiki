@@ -10,4 +10,4 @@
 ** [Features](wildchests/?id=features)
 ** [Commands](wildchests/?id=commands)
 ** [Permissions](wildchests/?id=permissions)
-* [API Javadocs](https://bg-software.com/wildchests/api/)
+* [API Javadocs](https://bg-software.com/api-docs/wildchests/)

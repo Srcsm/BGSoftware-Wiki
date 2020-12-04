@@ -10,3 +10,4 @@
 ** [Features](wildloaders/?id=features)
 ** [Commands](wildloaders/?id=commands)
 ** [Permissions](wildloaders/?id=permissions)
+* [API Javadocs](https://bg-software.com/api-docs/wildloaders/)
