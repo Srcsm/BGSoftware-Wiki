@@ -7,9 +7,6 @@
 
 * [Get Started](wildstacker/)
 * [Loot Tables](wildstacker/loot-tables/)
-** [Loot-Tables](wildstacker/loot-tables/?id=loot-tables-1)
-** [Loot-Pairs](wildstacker/loot-tables/?id=loot-pairs)
-** [Loot-Items](wildstacker/loot-tables/?id=loot-items)
-** [Loot-Commands](wildstacker/loot-tables/?id=loot-commands)
 * [Spawn Conditions](wildstacker/spawn-conditions/?id=spawn-conditions)
+** [Conditions](wildstacker/spawn-conditions/?id=conditions)
 * [API Javadocs](https://bg-software.com/wildstacker/api/)
