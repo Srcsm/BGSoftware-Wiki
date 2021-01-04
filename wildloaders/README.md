@@ -1,7 +1,10 @@
 <center>
 <img src="./images/wildloaders-logo.png" />
 
-<a href="https://www.spigotmc.org/resources/83564/" target="_blank" class="purchase" id="wl-purchase">Purchase now!</a>
+<a href="https://github.com/OmerBenGera/WildLoaders/" target="_blank" rel="noopener noreferrer" class="purchase" id="wl-purchase">Source Code</a>
+<a href="https://github.com/OmerBenGera/WildLoaders/issues" target="_blank" rel="noopener noreferrer" class="purchase" id="wl-purchase">Issues Tracker</a>
+<a href="https://hub.bg-software.com/job/WildLoaders/" target="_blank" rel="noopener noreferrer" class="purchase" id="wl-purchase">Dev Builds</a>
+
 </center>
 
 <br><br><br><br>

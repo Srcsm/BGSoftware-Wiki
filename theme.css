@@ -893,7 +893,7 @@ BG-Software's Purchase Buttons
     margin: auto;
     text-align: center;
     vertical-align: middle;
-    display: block;
+    display: inline-block;
     line-height: 50px;
     width: 200px;
     height: 50px;
@@ -904,6 +904,10 @@ BG-Software's Purchase Buttons
     color: white !important;
     text-decoration: none;
     font-family: 'Montserrat';
+}
+
+.purchase + .purchase {
+    margin-left: 20px;
 }
 
 #ssb-purchase {

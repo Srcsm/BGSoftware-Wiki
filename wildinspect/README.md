@@ -1,6 +1,10 @@
 <center>
 <img src="./images/wildinspect-logo.png" />
-<a href="https://www.spigotmc.org/resources/60646/" target="_blank" class="purchase" id="wi-purchase">Purchase now!</a>
+
+<a href="https://github.com/OmerBenGera/WildInspect/" target="_blank" rel="noopener noreferrer" class="purchase" id="wi-purchase">Source Code</a>
+<a href="https://github.com/OmerBenGera/WildInspect/issues" target="_blank" rel="noopener noreferrer" class="purchase" id="wi-purchase">Issues Tracker</a>
+<a href="https://hub.bg-software.com/job/WildInspect/" target="_blank" rel="noopener noreferrer" class="purchase" id="wi-purchase">Dev Builds</a>
+
 </center>
 
 <br><br><br><br>

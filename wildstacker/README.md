@@ -1,7 +1,9 @@
 <center>
 <img src="./images/wildstacker-logo.png" />
 
-<a href="https://www.spigotmc.org/resources/60648/" target="_blank" class="purchase" id="ws-purchase">Purchase now!</a>
+<a href="https://github.com/OmerBenGera/WildStacker/" target="_blank" rel="noopener noreferrer" class="purchase" id="ws-purchase">Source Code</a>
+<a href="https://github.com/OmerBenGera/WildStacker/issues" target="_blank" rel="noopener noreferrer" class="purchase" id="ws-purchase">Issues Tracker</a>
+<a href="https://hub.bg-software.com/job/WildStacker/" target="_blank" rel="noopener noreferrer" class="purchase" id="ws-purchase">Dev Builds</a>
 
 <iframe class="showcase" src="https://www.youtube.com/embed/Txh3rim3s-I" allowfullscreen="" width="700" height="400" frameborder="0"></iframe>
 </center>

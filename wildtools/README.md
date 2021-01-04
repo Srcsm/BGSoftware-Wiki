@@ -1,6 +1,9 @@
 <center>
 <img src="./images/wildtools-logo.png" />
-<a href="https://www.spigotmc.org/resources/60649/" target="_blank" class="purchase" id="wt-purchase">Purchase now!</a>
+
+<a href="https://github.com/OmerBenGera/WildTools/" target="_blank" rel="noopener noreferrer" class="purchase" id="wt-purchase">Source Code</a>
+<a href="https://github.com/OmerBenGera/WildTools/issues" target="_blank" rel="noopener noreferrer" class="purchase" id="wt-purchase">Issues Tracker</a>
+<a href="https://hub.bg-software.com/job/WildTools/" target="_blank" rel="noopener noreferrer" class="purchase" id="wt-purchase">Dev Builds</a>
 
 <iframe class="showcase" src="https://www.youtube.com/embed/703E9BzrZF4" allowfullscreen="" width="700" height="400" frameborder="0"></iframe>
 </center>

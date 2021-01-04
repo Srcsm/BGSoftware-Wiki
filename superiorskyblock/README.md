@@ -1,7 +1,9 @@
 <center>
 <img src="./images/superiorskyblock-logo.png" />
 
-<a href="https://www.spigotmc.org/resources/63905/" target="_blank" class="purchase" id="ssb-purchase">Purchase now!</a>
+<a href="https://github.com/OmerBenGera/SuperiorSkyblock2/" target="_blank" rel="noopener noreferrer" class="purchase" id="ssb-purchase">Source Code</a>
+<a href="https://github.com/OmerBenGera/SuperiorSkyblock2/issues" target="_blank" rel="noopener noreferrer" class="purchase" id="ssb-purchase">Issues Tracker</a>
+<a href="https://hub.bg-software.com/job/SuperiorSkyblock2/" target="_blank" rel="noopener noreferrer" class="purchase" id="ssb-purchase">Dev Builds</a>
 
 <iframe class="showcase" src="https://www.youtube.com/embed/C4OSlkYLpfc" allowfullscreen="" width="700" height="400" frameborder="0"></iframe>
 </center>

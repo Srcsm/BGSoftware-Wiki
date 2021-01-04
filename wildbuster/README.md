@@ -1,6 +1,9 @@
 <center>
 <img src="./images/wildbuster-logo.png" />
-<a href="https://www.spigotmc.org/resources/60647/" target="_blank" class="purchase" id="wb-purchase">Purchase now!</a>
+
+<a href="https://github.com/OmerBenGera/WildBuster/" target="_blank" rel="noopener noreferrer" class="purchase" id="wb-purchase">Source Code</a>
+<a href="https://github.com/OmerBenGera/WildBuster/issues" target="_blank" rel="noopener noreferrer" class="purchase" id="wb-purchase">Issues Tracker</a>
+<a href="https://hub.bg-software.com/job/WildBuster/" target="_blank" rel="noopener noreferrer" class="purchase" id="wb-purchase">Dev Builds</a>
 
 <iframe class="showcase" src="https://www.youtube.com/embed/88uKxvmTAj8" allowfullscreen="" width="700" height="400" frameborder="0"></iframe>
 </center>

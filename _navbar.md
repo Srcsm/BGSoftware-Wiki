@@ -30,4 +30,3 @@
 * [![](https://wiki.bg-software.com/images/wildchests-icon.png ':size=16x16 :class=navIcon') WildChests](wildchests/ ':class=wildchests-icon')
 * [![](https://wiki.bg-software.com/images/wildloaders-icon.png ':size=16x16 :class=navIcon') WildLoaders](wildloaders/ ':class=wildloaders-icon')
 * [![](https://wiki.bg-software.com/images/superiorskyblock-icon.png ':size=16x16 :class=navIcon') SuperiorSkyblock2](superiorskyblock/ ':class=superiorskyblock-icon')
-* [![](https://wiki.bg-software.com/images/superiorprison-icon.png ':size=16x16 :class=navIcon') SuperiorPrison](superiorprison/ ':class=superiorprison-icon')

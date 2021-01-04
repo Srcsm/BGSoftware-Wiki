@@ -1,6 +1,9 @@
 <center>
 <img src="./images/wildchests-logo.png" />
-<a href="https://www.spigotmc.org/resources/62622/" target="_blank" class="purchase" id="wc-purchase">Purchase now!</a>
+
+<a href="https://github.com/OmerBenGera/WildChests/" target="_blank" rel="noopener noreferrer" class="purchase" id="wc-purchase">Source Code</a>
+<a href="https://github.com/OmerBenGera/WildChests/issues" target="_blank" rel="noopener noreferrer" class="purchase" id="wc-purchase">Issues Tracker</a>
+<a href="https://hub.bg-software.com/job/WildChests/" target="_blank" rel="noopener noreferrer" class="purchase" id="wc-purchase">Dev Builds</a>
 
 <iframe class="showcase" src="https://www.youtube.com/embed/pqKUuqRBfCM" allowfullscreen="" width="700" height="400" frameborder="0"></iframe>
 </center>
