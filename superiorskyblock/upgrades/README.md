@@ -120,8 +120,9 @@ You can use the following sections to alter island values:<br>
 <br>
 
 ### Custom Upgrades
-You can create custom upgrades with data from other plugins using the commands section.<br>
-<u>Please note</u>: islands will not be synced with that data.<br>
+You can create custom upgrades with data from other plugins using the commands section.
+
+!> islands will not be synced with that data.
 
 <br>
 

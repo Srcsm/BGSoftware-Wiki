@@ -14,7 +14,8 @@ You can get the Island of a player by using `SuperiorPlayer#getIsland()`.<br>
 If you want to get an Island in a specific location, you can use `SuperiorSkyblockAPI.getGrid().getIslandAt(<Location>)`.<br><br>
 [GridManager](https://github.com/OmerBenGera/SuperiorSkyblockAPI/blob/3cd75af980c19061aa0d6fb1120ea8560c26017a/src/main/java/com/bgsoftware/superiorskyblock/api/handlers/GridManager.java#L17)<br>
 The grid manager object handles all the islands on your server. If you want to interact with islands, get them from the top list or anything related to that, you should use this object.<br>
-Please note: Do not use methods that the Island object has (for example, the deleteIsland method), as it should only be used by the Island object itself.<br>
+
+!> Do not use methods that the Island object has (for example, the deleteIsland method), as it should only be used by the Island object itself.<br>
 
 ### Creating your own command
 The API provides a way to register your own commands. This can be done by using the `SuperiorSkyblockAPI.registerCommand(<SuperiorCommand>)` method.<br>
