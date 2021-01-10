@@ -11,5 +11,6 @@
 ** [Commands](wildstacker/?id=commands)
 ** [Permissions](wildstacker/?id=permissions)
 * [Loot Tables](wildstacker/loot-tables/)
-* [Spawn Conditions](wildstacker/spawn-conditions/?id=spawn-conditions)
+* [Spawn Conditions](wildstacker/spawn-conditions/)
+* [Spawner Upgrades](wildstacker/spawner-upgrades/)
 * [API Javadocs](https://bg-software.com/api-docs/wildstacker/)
