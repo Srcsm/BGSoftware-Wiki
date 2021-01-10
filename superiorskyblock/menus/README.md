@@ -34,7 +34,9 @@ An example can be seen here:
 <u>unbreakable</u>: Should the item have spigot's unbreakable tag?<br>
 <u>effects</u>: A section that holds all potion effects. Keys are effect names, and their values are sections with the following keys:<br>
 &ensp;&ensp;&ensp;&ensp;<u>duration</u>: The duration of the potion effect.<br>
-&ensp;&ensp;&ensp;&ensp;<u>amplifier</u>: The level of the potion effect.<br></div>
+&ensp;&ensp;&ensp;&ensp;<u>amplifier</u>: The level of the potion effect.<br></div><br>
+<u>entity</u>: A custom entity for eggs. Can be used instead of using the data value of the eggs.<br>
+<u>customModel</u>: A custom model id that can be attached to items for custom textures (1.14+)<br>
 
 ### Sounds Section
 <div class="offset-para">This section holds all the sounds. Every sound should follow the following format:<br>
