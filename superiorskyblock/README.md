@@ -154,15 +154,16 @@ Supports PlaceholderAPI (%&#60;placeholder>%) and MVdWPlaceholderAPI ({&#60;plac
 
 | Island Placeholders:                       |                                               |                                                |
 |--------------------------------------------|-----------------------------------------------|------------------------------------------------|
-| %superior_island_bank%                     | %superior_island_is_member%                   | %superior_island_size%                         |
-| %superior_island_bank_format%              | %superior_island_leader%                      | %superior_island_size_format%                  |
+| %superior_island_bank%                     | %superior_island_is_leader%                   | %superior_island_raw_worth_format%             |
+| %superior_island_bank_format%              | %superior_island_is_member%                   | %superior_island_size%                         |
+| %superior_island_bank_next_interest%       | %superior_island_leader%                      | %superior_island_size_format%                  |
 | %superior_island_bank_raw%                 | %superior_island_level%                       | %superior_island_spawners_multiplier%          |
 | %superior_island_biome%                    | %superior_island_level_format%                | %superior_island_team_limit%                   |
 | %superior_island_block_limit_&#60;block>%  | %superior_island_level_int%                   | %superior_island_team_size%                    |
 | %superior_island_center%                   | %superior_island_level_raw%                   | %superior_island_team_size_online%             |
 | %superior_island_coop_limit%               | %superior_island_locked%                      | %superior_island_upgrade_&#60;upgrade>%        |
 | %superior_island_count_&#60;block>%        | %superior_island_member_&#60;#>%              | %superior_island_visitor_last_join_&#60;name>% |
-| %superior_island_creation_time%            | %superior_island_name%                        | %superior_island_warps%.                       |
+| %superior_island_creation_time%            | %superior_island_name%                        | %superior_island_warps%                        |
 | %superior_island_crops_multiplier%         | %superior_island_name_leader%                 | %superior_island_warps_limit%                  |
 | %superior_island_discord_all%              | %superior_island_paypal%                      | %superior_island_world%                        |
 | %superior_island_discord%                  | %superior_island_nether_unlocked%             | %superior_island_worth%                        |
@@ -171,15 +172,15 @@ Supports PlaceholderAPI (%&#60;placeholder>%) and MVdWPlaceholderAPI ({&#60;plac
 | %superior_island_entity_limit_&#60;block>% | %superior_island_radius%                      | %superior_island_worth_raw%                    |
 | %superior_island_exists%                   | %superior_island_rating%                      | %superior_island_x%                            |
 | %superior_island_hoppers_limit%            | %superior_island_rating_stars%                | %superior_island_y%                            |
-| %superior_island_is_coop%                  | %superior_island_raw_worth%                   | %superior_island_z%
-| %superior_island_is_leader%                | %superior_island_raw_worth_format%            |
+| %superior_island_is_coop%                  | %superior_island_raw_worth%                   | %superior_island_z%                            |
 </div>
 <div class="clean-table big-titles aligned-titles">
 
 | Location Placeholders:                               |                                                        |                                                  |
 |------------------------------------------------------|--------------------------------------------------------|--------------------------------------------------|
-| %superior_island_location_bank%                      | %superior_island_location_is_member%                   | %superior_island_location_size%                  |
-| %superior_island_location_bank_format%               | %superior_island_location_leader%                      | %superior_island_location_size_format%           |
+| %superior_island_location_bank%                      | %superior_island_location_is_leader%                   | %superior_island_location_raw_worth_format%      |
+| %superior_island_location_bank_format%               | %superior_island_location_is_member%                   | %superior_island_location_size%                  |
+| %superior_island_location_bank_next_interest%        | %superior_island_location_leader%                      | %superior_island_location_size_format%           |
 | %superior_island_location_bank_raw%                  | %superior_island_location_level%                       | %superior_island_location_spawners_multiplier%   |
 | %superior_island_location_biome%                     | %superior_island_location_level_format%                | %superior_island_location_team_limit%            |
 | %superior_island_location_block_limit_&#60;block>%   | %superior_island_location_level_int%                   | %superior_island_location_team_size%             |
@@ -195,7 +196,6 @@ Supports PlaceholderAPI (%&#60;placeholder>%) and MVdWPlaceholderAPI ({&#60;plac
 | %superior_island_location_exists%                    | %superior_island_location_rating%                      | %superior_island_location_y%                     |
 | %superior_island_location_hoppers_limit%             | %superior_island_location_rating_stars%                | %superior_island_location_z%                     |
 | %superior_island_location_is_coop%                   | %superior_island_location_raw_worth%                   |
-| %superior_island_location_is_leader%                 | %superior_island_location_raw_worth_format%            |
 </div>
 <div class="clean-table big-titles aligned-titles">
 
