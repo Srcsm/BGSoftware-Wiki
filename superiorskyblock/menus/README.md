@@ -3,227 +3,153 @@ Menus (guis) are used in the plugin in many cases, and they are all fully custom
 In this documantation, you will understand how to edit them to your own style!<br>
 Menus also support placeholders!<br>
 
-### Editing your first menu
-<div class="offset-para">All the menus follow the same concept, but some of them have some changes.<br>
-Here we will go through all the basic sections, that every menu has / can have.<br><br>
-<u>title</u>: The title of the menu.<br>
-<u>type</u>: The type of the menu. Can be HOPPER or CHEST.<br>
-<u>pattern</u>: The pattern of the menu. This section is basically the layout of the menu.<br>
-Every line represents a line in the menu, and every char represents an item (besides spaces).<br>
-<u>items</u>: A section that contains all the chars from the pattern. Every char should have a child-section under this section,<br>
-with the item that you want to have in the place where the char is. If the char doesn't have a child-section, the slot will be empty.<br>
-<u>sounds</u>: A section that holds all sounds for all the chars. This section is not required and can be deleted if wanted.<br>
-Every char you want to play sounds, needs to be under this section, and must follow the sounds format (type section (String), volume section (Double) and pitch section (Double)).<br>
-<u>commands</u>: A section that holds all the commands for all the chars. This section is not required and can be deleted if wanted.<br>
-Every char you want to run commands, needs to be under this section, and be a list of commands (without slash).<br>
-If you want the command to be executed by the player, add "PLAYER:" at the start of the line.
+### Editing the menu's style
+You have the ability to edit the style of the menu, which includes its title, its type and the amount of rows it has.<br>
 
-An example can be seen here:
-![Menu Example](https://bg-software.com/imgs/menu-example2.png)<br></div>
+!> Note: some menus might have additional custom fields that are not addressed in this tutorial.
 
-### Items Section
-<div class="offset-para">This section holds all the items. Every item should follow the following format:<br>
-<u>type</u>: The material type of the item. Required for every item.<br>
-<u>data</u>: The data value of the item. Only used in legacy versions.<br>
-<u>name</u>: A custom name for your item. Supports color codes.<br>
-<u>lore</u>: A list of lines that will be used as the item's lore. Supports color codes.<br>
-<u>enchants</u>: A section that holds all enchants. Keys are enchantment names, and their values are the enchantment levels.<br>
-<u>glow</u>: A boolean to set a glowing enchantment to the item (no enchantment name in the lore).<br>
-<u>flags</u>: A list of item flags that will be added to the item.<br>
-<u>skull</u>: A texture value to give to the item if it's a skull.<br>
-<u>unbreakable</u>: Should the item have spigot's unbreakable tag?<br>
-<u>effects</u>: A section that holds all potion effects. Keys are effect names, and their values are sections with the following keys:<br>
-&ensp;&ensp;&ensp;&ensp;<u>duration</u>: The duration of the potion effect.<br>
-&ensp;&ensp;&ensp;&ensp;<u>amplifier</u>: The level of the potion effect.<br></div><br>
-<u>entity</u>: A custom entity for eggs. Can be used instead of using the data value of the eggs.<br>
-<u>customModel</u>: A custom model id that can be attached to items for custom textures (1.14+)<br>
+|        Field Name        |                                          Description                                    | Supported Menus |
+| ------------------------ | --------------------------------------------------------------------------------------- | --------------- |
+| `title`                  | Custom title for the menu. Supports color codes, 1.16+ codes and placeholders           | All menus       |
+| `type`                   | The type of the menu. A list of inventory types can be found [here](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/inventory/InventoryType.html).         | All menus       |
+| `previous-menu`          | Whether or not the previous menu should be opened when closing this menu.               | All menus       |
+| `open-sound`             | A sound that will be played when opening the menu. Should follow the sound format.      | All menus       |
+| `back`                   | The back button of the menu. This is required if only-back-button is enabled.           | All menus       |
+| `previous-page`          | The previous page button for paged menus.                                               | Paged menus     |
+| `current-page`           | The display item of the current page of the menu.                                       | Paged menus     |
+| `next-page`              | The next page button for paged menus.                                                   | Paged menus     |
+| `slots`                  | The item symbol that will be used for the paged menu contents (warps, members, etc)     | Paged menus     |
 
-### Sounds Section
-<div class="offset-para">This section holds all the sounds. Every sound should follow the following format:<br>
-<u>type</u>: The bukkit-sound type. Required for every sound.<br>
-<u>volume</u>: The volume of the sound. Required for every sound.<br>
-<u>pitch</u>: The pitch of the sound. Required for every sound.<br></div>
+Besides all of these fields, there is another field that is really important - `pattern`.<br>
+This field determines the pattern of the menu, or in other words - the amount of rows that the menu has and the items in the menu.<br>
+This field is a list of strings that represents the rows of the menu. Each string should contain the amount of columns the menu has.<br>
+(Regular menu types should have 9 items in a row, hoppers should have 5, etc.)<br>
+Each item in the menu is represented by a unique char, and can be set in any slot in the menu. Similar chars will represent the same item.<br>
 
-### Commands Section
-<div class="offset-para">This section holds all the commands. Every command should be a list of strings.<br>
-Every line represents a command, and must not contain the slash at the start.<br>
-If you want the player to execute the command (and not console), add "PLAYER:" at the start of the line.<br></div>
+##### Pattern Examples:
 
-### Permissions Section
-<div class="offset-para">This section holds all the permissions for items. Every permission should follow the following format:<br>
-<u>permissions.&#60;ch>.permission</u>: The required permission for the player.<br>
-<u>permissions.&#60;ch>.no-access-sound</u>: The sound that will be played when the player permission doesn't have the permission to use the item.<br>
-&ensp;&ensp;&ensp;&ensp;The sound section should follow the sounds format.
+The following menu has 1 row with a similar item that is represented by the char `A`:
+```yaml
+pattern:
+- 'A A A A A A A A A'
+```
 
-### Common Sections
-<div class="offset-para">Here's a list of common sections that many menus can have.<br>
-<u>previous-page</u>: Set the char of the previous-page button.<br>
-<u>current-page</u>: Set the char of the current-page button.<br>
-<u>next-page</u>: Set the char of the next-page button.<br>
-<u>back</u>: Set the char of the back button. Unlike previous page, this will open the menu before this one.<br></div>
+The following example has 5 rows, with a similar item as a border, and is filled with another item:
+```yaml
+pattern:
+- 'A A A A A A A A A'
+- 'A B B B B B B B A'
+- 'A B B B B B B B A'
+- 'A B B B B B B B A'
+- 'A A A A A A A A A'
+```
 
-### Biomes Menu
-<div class="offset-para"><u>items</u>: Besides the regular items, you can add items that will be represented as biome buttons.<br>
-These items have some additional sections:<br>
-<u>biome</u>: '' - The biome that is assigned to the button.<br>
-<u>access</u>: - The item that will be displayed if there's access to the biome. Should follow the items format.<br>
-<u>no-access</u>: - The item that will be displayed if there's no access to the biome. Should follow the items format.<br>
-<u>sounds</u>: Sounds of the biome button should follow the following format:<br>
-&ensp;&ensp;&ensp;&ensp;<u>access</u>: - The sound that will be played if there's access to the biome. Should follow the sounds format.<br>
-&ensp;&ensp;&ensp;&ensp;<u>no-access</u>: - The sound that will be played if there's no access to the biome. Should follow the sounds format.<br></div>
+### Editing items in the menu
+All the items styling is done under the `items` section in the menu. Under this section, each item should have a section where you can style it to your own liking.<br>
+The name of the section is the unique char you chose for your item. For the examples above, the unique chars are `A` and `B`.<br>
+Therefore, the `items` section will be like the following:
+```yaml
+items:
+  'A':
+    ... # All the item's settings
+  'B':
+    ... # All the item's settings
+```
 
-### Border Color Menu
-<div class="offset-para"><u>green-color</u>: Set the char of the green-color button.<br>
-<u>red-color</u>: Set the char of the red-color button.<br>
-<u>blue-color</u>: Set the char of the blue-color button.<br></div>
+Each item can be configured as you wish, and can have as many settings as you wish from the list down below.<br>
 
-### Confirm Disband Menu
-<div class="offset-para"><u>confirm</u>: Set the char of the confirm button.<br>
-<u>cancel</u>: Set the char of the cancel button.<br></div>
+!> Note: SuperiorSkyblock only supports material names, ids are not supported. You can find material names [here](https://bg-software.com/materials/)
 
-### Control Panel Menu
-<div class="offset-para"><u>members</u>: Set the char of the members button.<br>
-<u>settings</u>: Set the char of the settings button.<br>
-<u>visitors</u>: Set the char of the visitors button.<br></div>
+|        Field Name        |                                                               Description                                                               |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `type`                   | The material type of the item.                                                                                                          |
+| `data`                   | The data value of the item. Used in versions 1.12 or below to determine different items.                                                |
+| `name`                   | Custom name for the item (supports color codes)                                                                                         |
+| `lore`                   | A list of lines for the lore of the item (supports color codes)                                                                         |
+| `enchants`               | A section for all enchantments. Each enchantment will have a different sub-section, with the level of the ench as a value.              |
+| `glow`                   | Whether or not the item should have enchanted effect without having an enchantment in its lore.                                         |
+| `flags`                  | A list of item flags to be applied for the item. Supported in 1.9+, and can be found [here](https://helpch.at/docs/1.12.2/index.html?org/bukkit/inventory/ItemFlag.html).  |
+| `skull`                  | Base64 value for the skin of the skull, if this item is a player's head item. This can be obtained [here](https://minecraft-heads.com). |
+| `unbreakable`            | Set the spigot's unbreakable flag for the item.                                                                                         |
+| `effects`                | A list of potion effects that will be applied for the item. More information about it below.                                            |
+| `entity`                 | Set the entity of the item, if it's a spawn egg. Replaces the usage of data values for legacy versions.                                 |
+| `customModel`            | Set a custom model data for items. This is used to set custom textures for the items using custom resource packs. Supported in 1.14+    |
 
-### Global Warps Menu
-<div class="offset-para"><u>warps</u>: Set the char of the warp buttons.<br>
-<u>previous-page</u>: Set the char of the previous-page button.<br>
-<u>current-page</u>: Set the char of the current-page button.<br>
-<u>next-page</u>: Set the char of the next-page button.<br>
-<u>visitor-warps</u>: A boolean to replace warps with visitor locations. Only islands that have their visitor location set, will be shown.<br></div>
+##### Effects Section
+The effects section is used to add effects for potion items. Each effect will have it's own section, and two custom sub-sections: `duration` and `amplifier`.<br>
+Here is an example for a potion item with a speed 2 effect that lasts for 5 minutes:
+```yaml
+'A':
+  type: POTION
+  effects:
+    # Add speed effect to the potion
+    speed:
+      # The duration of the effect, in seconds
+      duration: 300
+      # The amplifier of the effect. Calculated as the desired level - 1.
+      amplifier: 1
+```
 
-### Island Creation Menu
-<div class="offset-para"><u>items</u>: Besides the regular items, you can add items that will be represented as schematic buttons.<br>
-These items have some additional sections:<br>
-<u>schematic</u>: '' - The schematic that will be placed when a new island is created.<br>
-<u>required-permission</u>: '' - The required permission for using the schematic.<br>
-<u>biome</u>: '' - The biome that will be set to the new island.<br>
-<u>access</u>: - The item that will be displayed if there's access to use the schematic. Should follow the items format.<br>
-<u>no-access</u>: - The item that will be displayed if there's no access to use the schematic. Should follow the items format.<br></div>
+# Giving sounds for items
+You can make items to play sounds when clicked. All sounds must follow a specific format, which will be described below.<br>
+Similar to the way items are configured, the sounds go under the `sounds` section, and as sub-sections, each char of the item you want to apply a custom sound for.<br>
+The sound sections should have the following fields:
 
-### Island Missions Menu
-<div class="offset-para"><u>slots</u>: Set the char of the mission buttons.<br>
-<u>previous-page</u>: Set the char of the previous-page button.<br>
-<u>current-page</u>: Set the char of the current-page button.<br>
-<u>next-page</u>: Set the char of the next-page button.<br>
-<u>sounds</u>: Sounds of mission items should be in the following format:<br>
-&ensp;&ensp;&ensp;&ensp;<u>completed</u>: - The sound that will be played when the mission was already completed.<br>
-&ensp;&ensp;&ensp;&ensp;<u>not-completed</u>: - The sound that will be played when the mission cannot be completed.<br>
-&ensp;&ensp;&ensp;&ensp;<u>can-complete</u>: - The sound that will be played when the mission can be completed.<br></div>
+|        Field Name        |        Description       |
+| ------------------------ | ------------------------ |
+| `type`                   | The sound to play.       |
+| `volume`                 | The volume of the sound. |
+| `pitch`                  | The pitch of the sound.  |
 
-### Island Rate Menu
-<div class="offset-para"><u>zero-stars</u>: Set the char of the zero stars button.<br>
-<u>one-star</u>: Set the char of the one star button.<br>
-<u>two-stars</u>: Set the char of the two stars button.<br>
-<u>three-stars</u>: Set the char of the three stars button.<br>
-<u>four-stars</u>: Set the char of the four stars button.<br>
-<u>five-stars</u>: Set the char of the five stars button.<br></div>
+An example for a custom sound for the item `A`:
+```yaml
+sounds:
+  'A':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+```
 
-### Island Ratings Menu
-<div class="offset-para"><u>slots</u>: Set the char of the rating items.<br>
-<u>previous-page</u>: Set the char of the previous-page button.<br>
-<u>current-page</u>: Set the char of the current-page button.<br>
-<u>next-page</u>: Set the char of the next-page button.<br></div>
+# Running custom commands
+You can make commands to be executed when clicking items. Similar to the sounds and the items sections, you can use the `commands` section to execute custom commands.
+Commands can be executed by the Console, or can be executed by the player that clicks the item. Besides that, you can use `%player%` to get the name of the player that clicked the item.<br>
 
-### Member Manage Menu
-<div class="offset-para"><u>roles</u>: Set the char of the roles button.<br>
-<u>ban</u>: Set the char of the ban button.<br>
-<u>kick</u>: Set the char of the kick button.<br></div>
+<b>Execute commands by the player:</b><br>
+You can make the player to execute the command instead of the Console by having `[player]` at the start of the command.<br>
 
-### Member Role Menu
-<div class="offset-para"><u>items</u>: Besides the regular items, you can add items that will be represented as role buttons.<br>
-You must give them the role key, which holds the name of the role as a value.<br></div>
+<b>Execute island commands:</b><br>
+You can execute island commands by setting the subcommand in brackets. `[player] [tp]` will make the player to execute /is tp. For a command with args, simply add the args outside of the brackets.<br>
 
-### Members Menu
-<div class="offset-para"><u>slots</u>: Set the char of the member items.<br>
-<u>previous-page</u>: Set the char of the previous-page button.<br>
-<u>current-page</u>: Set the char of the current-page button.<br>
-<u>next-page</u>: Set the char of the next-page button.<br></div>
+<b>Execute custom commands:</b><br>
+You can execute custom commands by simply writing them without `/` at the start. `bc &cHello!` will execute `/bc &cHello!` by the Console.<br>
 
-### Missions Menu
-<div class="offset-para"><u>player-missions</u>: Set the char of the player-missions button.<br>
-<u>island-missions</u>: Set the char of the island-missions button.<br></div>
+<b>Built-in actions:</b><br>
+The plugin provides two custom actions that can be executed - close the menu and go back to the previous menu.<br>
+Similar to the player action, you can use `[close]` to close the menu, and `[back]` to go to the previous menu.<br>
 
-### Permissions Menu
-<div class="offset-para"><u>slots</u>: Set the char of the permission items.<br>
-<u>previous-page</u>: Set the char of the previous-page button.<br>
-<u>current-page</u>: Set the char of the current-page button.<br>
-<u>next-page</u>: Set the char of the next-page button.<br><br>
-This menu has a section called "permissions". This section holds all the permissions that will be displayed in the menu.<br>
-If a permissions is not in the menu, it won't be able to be changed by players.<br>
-Every section should follow the following format:<br>
-<u>permission-enabled</u>: - The item that will be displayed when the permission is enabled for the player.<br>
-<u>permission-disabled</u>: - The item that will be displayed when the permission is disabled for the player.<br>
-<u>role-permission</u>: - The item that will be displayed when opening the menu for a role.<br>
-<u>has-access.sound</u>: - The sound that will be played if there's access to change the permission.<br>
-<u>no-access.sound</u>: - The sound that will be played if there's no access to change the permission.<br></div>
 
-### Player Language Menu
-<div class="offset-para"><u>items</u>: Besides the regular items, you can add items that will be represented as language buttons.<br>
-You must give them the language key, which holds the language formatted name as a value.<br></div>
+!> I recommend you to follow the default format of menus when you edit them. This will make your life much more easier when working with menus!
 
-### Player Missions Menu
-<div class="offset-para"><u>slots</u>: Set the char of the mission buttons.<br>
-<u>previous-page</u>: Set the char of the previous-page button.<br>
-<u>current-page</u>: Set the char of the current-page button.<br>
-<u>next-page</u>: Set the char of the next-page button.<br>
-<u>sounds</u>: Sounds of mission items should be in the following format:<br>
-&ensp;&ensp;&ensp;&ensp;<u>completed</u>: - The sound that will be played when the mission was already completed.<br>
-&ensp;&ensp;&ensp;&ensp;<u>not-completed</u>: - The sound that will be played when the mission cannot be completed.<br>
-&ensp;&ensp;&ensp;&ensp;<u>can-complete</u>: - The sound that will be played when the mission can be completed.<br></div>
+# Custom menus
+You can make custom menus that will be opened by custom sub-commands.<br>
+The principles of the regular menus are also applied to the custom menus. Simply create a new file under the `custom` folder - each file represents a custom menu.<br>
+Besides the regular fields of the other menus, custom menus must have the following fields:
 
-### Settings Menu
-<div class="offset-para"><u>slots</u>: Set the char of the settings items.<br>
-<u>previous-page</u>: Set the char of the previous-page button.<br>
-<u>current-page</u>: Set the char of the current-page button.<br>
-<u>next-page</u>: Set the char of the next-page button.<br><br>
-This menu has a section called "settings". This section holds all the settings that will be displayed in the menu.<br>
-If a settings item is not in the menu, it won't be able to be changed by players.<br>
-Every section should follow the following format:<br>
-<u>settings-enabled</u>: - The item that will be displayed when the settings is enabled for the island.<br>
-<u>settings-disabled</u>: - The item that will be displayed when the settings is disabled for the island.<br>
-<u>sound</u>: - The sound that will be played when clicking the item.<br></div>
+|        Field Name        |                                                     Description                                                     | Required Field |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------- | -------------- |
+| `command`                | The sub-command that will be used to open the menu (`/island {your-sub-command}`).                                  | Required       |
+| `aliases`                | A list of aliases for the command, splitted by `, `.                                                                | Optional       |
+| `permission`             | Custom permission that players need to have in order to execute the command.                                        | Optional       |
+| `description`            | A list of descriptions for different languages for the command. The description is displayed in `/is help`.         | Optional       |
+| `display-command`        | Whether or not the command should be displayed in `/is help`.                                                       | Optional       |
 
-### Top Islands Menu
-<div class="offset-para"><u>slots</u>: Set the char of the island items.<br>
-<u>worth-sort</u>: Set the char of the worth-sort button.<br>
-<u>level-sort</u>: Set the char of the level-sort button.<br>
-<u>rating-sort</u>: Set the char of the rating-sort button.<br>
-<u>players-sort</u>: Set the char of the players-sort button.<br>
-<u>player-island</u>: Set the char of the player-island item.<br>
-<u>sort-glow-when-selected</u>: A boolean to set sorting buttons glowing when selecting them.<br><br>
-The formatting of the island item is different, and is the following:<br>
-<u>island</u>: - The item that will be displayed if an island exists for the place.<br>
-<u>no-island</u>: - The item that will be displayed if an island doesn't exist for the place.<br></div>
+<b>The descriptions section:</b><br>
+The description section should have sub-sections for each language, and the description for that language as a value. For example:
 
-### Unique Visitors Menu
-<div class="offset-para"><u>slots</u>: Set the char of the visitor items.<br>
-<u>previous-page</u>: Set the char of the previous-page button.<br>
-<u>current-page</u>: Set the char of the current-page button.<br>
-<u>next-page</u>: Set the char of the next-page button.<br></div>
-
-### Upgrades Menu
-<div class="offset-para">This menu has a section called "upgrades". This section holds all the upgrade items.<br>
-The child-section name is the name of the upgrade. Every section should be in the following format:<br>
-<u>item</u>: - The char of that upgrade.<br>
-<u>'<#>'</u>: - The item of the upgrade level <#>.<br>
-<u>'<#>'.has-next-level</u>: - The item that will be displayed if the player can level-up the upgrade.<br>
-<u>'<#>'.no-next-level</u>: - The item that will be displayed if the player cannot level-up the upgrade.<br>
-<u>'<#>'.has-next-level.sound</u>: - The sound that will be played if the player can level-up the upgrade.<br>
-<u>'<#>'.no-next-level.sound</u>: - The sound that will be played if the player cannot level-up the upgrade.<br></div>
-
-### Values Menu
-<div class="offset-para">Items that represent value items, should have the block section, that has the type that it counts as a value.<br></div>
-
-### Visitors Menu
-<div class="offset-para"><u>slots</u>: Set the char of the visitor items.<br>
-<u>previous-page</u>: Set the char of the previous-page button.<br>
-<u>current-page</u>: Set the char of the current-page button.<br>
-<u>next-page</u>: Set the char of the next-page button.<br></div>
-
-### Warps Menu
-<div class="offset-para"><u>slots</u>: Set the char of the warp items.<br>
-<u>previous-page</u>: Set the char of the previous-page button.<br>
-<u>current-page</u>: Set the char of the current-page button.<br>
-<u>next-page</u>: Set the char of the next-page button.<br></div>
+```yaml
+description:
+  # Custom description for the command for English.
+  en-US: 'This is a custom command to open a custom menu'
+  # Custom description for the command for France.
+  fr-FR: ...
+```
