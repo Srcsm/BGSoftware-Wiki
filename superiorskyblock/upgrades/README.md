@@ -16,10 +16,11 @@ upgrades:
 ```
 All the upgrades work with the same layout: a global section for the upgrade,<br>
 and sub-sections for every level of the upgrade. You can make as many levels as you want!<br><br>
-Now, we can start working on our first level. We will give it a price, commands to be executed upon rankup<br>
+Now, we can start working on our first level. We will give it a price-type, price, commands to be executed upon rankup<br>
 and a required permission to use the upgrade. In this case, I don't want a permission - so I don't add that section.<br>
 ```yaml
 '1':
+  price-type: 'money'      # The type of price handler. More information below.
   price: 100000.0          # The price to rank up to the second level.
   commands:
     - 'island admin setupgrade %player% island-generators 2'     # We must change the level of the upgrade manually using a command.
@@ -33,6 +34,7 @@ You can change crop growth, spawner rates, mob drops, limits, generators and mor
 For this tutorial, I will change the generator rates using the "generator-rates" section:<br>
  ```yaml
 '1':
+  price-type: 'money'
   price: 100000.0
   commands:
     - 'island admin setupgrade %player% island-generators 2'
@@ -51,6 +53,7 @@ Now, I will add more levels by following the same layout:<br>
 upgrades:
   island-generators:
     '1':
+      price-type: 'money'
       price: 100000.0
       commands:
         - 'island admin setupgrade %player% island-generators 2'
@@ -61,6 +64,7 @@ upgrades:
           COAL_ORE: 10
           IRON_ORE: 5 
     '2':
+      price-type: 'money'
       price: 150000.0
       commands:
         - 'island admin setupgrade %player% island-generators 3'
@@ -72,6 +76,7 @@ upgrades:
           IRON_ORE: 10
           DIAMOND_ORE: 5
     '3':
+      price-type: 'money'
       price: 300000.0
       commands:
         - 'island admin setupgrade %player% island-generators 4'
@@ -87,6 +92,7 @@ After I configured all of my levels, I must also add the last upgrade - level #4
 Unlike the other upgrades, this upgrade will not have the setupgrade command, but will still have values assigned to it:<br>
 ```yaml
 '4':
+  price-type: 'money'
   price: 0.0       # I set the price to 0, so my players will always get the warning message.
   commands:
     - 'island admin msg %player% &c&lError | &7You have reached the maximum upgrade for island generators.'
@@ -116,6 +122,29 @@ You can use the following sections to alter island values:<br>
 &ensp;&ensp;&ensp;&ensp;Under this section, all the rates will be in the following format: "TYPE: CHANCE".<br>
 <u>island-effects</u>: The island effects for this upgrade.<br>
 &ensp;&ensp;&ensp;&ensp;Under this section, all the effects will be in the following format: "EFFECT: LEVEL".<br>
+
+<br>
+
+#### Price Types
+The plugin has two pre-defined price types - money based prices and placeholders based prices.<br>
+
+<b>money:</b><br>
+When using this price-type, money will be taken from the players' bank (Essentials or any other economy plugin).
+
+|      Required Field      |     Type     |                                         Description                                           |
+| ------------------------ | ------------ | --------------------------------------------------------------------------------------------- |
+| `price`                  | Double       | The cost to upgrade to next level.                                                            |
+
+<b>placeholders:</b><br>
+When using this price-type, money will be taken by executing custom commands, and the balance will be parsed by a placeholder.
+ 
+|      Required Field      |    Type    |                                                               Description                                                                |
+| ------------------------ | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| `price`                  | Double     | The cost to upgrade to next level.                                                                                                       |
+| `placeholder`            | String     | The placeholder that represents the balance of the player.                                                                               |
+| `withdraw-commands`      | List       | A list of commands to be executed for withdrawing money.<br>You can use %player% for player's name and %amount% for the amount to withdraw. |
+
+!> You can register custom price types using the API.
 
 <br>
 
