@@ -15,7 +15,7 @@ When the section is disabled, the spawn won't be protected and you should use ot
 
 **settings:**<br>
 A list of settings that will be applied to the spawn area.<br>
-For a list of settings, please check out the [settings tab](superiorskyblock/island-settings).
+For a list of settings, please check out the [settings tab](superiorskyblock/island-settings/).
 
 **world-border:**<br>
 Set whether or not the world-border inside the spawn should be shown.<br><br>
@@ -23,7 +23,7 @@ Set whether or not the world-border inside the spawn should be shown.<br><br>
 
 ### Roles Configuration:
 In this section, you can customize everything related to the island roles.<br>
-If you want to read more about island permissions, please check the [permissions tab](superiorskyblock/island-permissions).<br>
+If you want to read more about island permissions, please check the [permissions tab](superiorskyblock/island-permissions/).<br>
 Please note: changing role names when data exist can cause many issues.
 
 **guest:**<br>
