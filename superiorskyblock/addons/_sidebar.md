@@ -20,3 +20,4 @@
 ** [SlimeWorldManager Addon](superiorskyblock/addons/?id=slimeworldmanager-addon)
 ** [OneBlock Addon](superiorskyblock/addons/?id=oneblock-addon)
 ** [AcidIslands Addon](superiorskyblock/addons/?id=acidislands-addon)
+** [Custom Script-Engines Addons](superiorskyblock/addons/?id=custom-script-engines-addons)
