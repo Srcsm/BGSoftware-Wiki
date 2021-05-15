@@ -22,3 +22,21 @@ You can find the addon, the source code and the release files on its [github pag
 ### AcidIslands Addon
 AcidIslands is an addon for the default skyblock plugin which changes the gameplay by a lot. Instead of spawning in a world with air and a floating island, you get spawned in the middle of the ocean with a small island you can play on. However, the water is deadly and you can die by touching it!<br>
 You can find the addon, the source code and the release files on its [github page](https://github.com/OmerBenGera/SSB-AcidIslands).<br>
+
+<br>
+
+### Custom Script-Engines Addons
+In java 15 or later, Orcale removed Nahsorn Javascript engine from the JDK. It means that the plugin cannot use Javascript to execute some scripts given in some places (for example, required checks for missions, island missions success check, levels to worth formula and so on). The following addons can be added to fix the issue.
+In order to install them, simply drag the jar to the modules folder of the plugin. If you can't find it, make sure you update to latest dev build.<br>
+
+#### Nashorn Engine
+This is a standalone version of the Nashorn engine. In other words, this is the same engine that used to be in Java.<br>
+You can find the addon, the source code and the release files on its [github page](https://github.com/BG-Software-LLC/SuperiorSkyblock2-NashornEngine).<br>
+
+#### Rhino Engine
+This is a standalone version of the Rhino engine. In other words, this is another implementation of a Javascript engine.<br>
+You can find the addon, the source code and the release files on its [github page](https://github.com/BG-Software-LLC/SuperiorSkyblock2-RhinoEngine).<br>
+
+#### GraalVM Engine
+This is an addon that uses the GraalVM engine. In order to use it, you must have GraalVM working and running correctly.<br>
+You can find the addon, the source code and the release files on its [github page](https://github.com/BG-Software-LLC/SuperiorSkyblock2-GraalVMEngine).<br>
