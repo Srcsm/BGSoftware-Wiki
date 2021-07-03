@@ -17,6 +17,7 @@
 ** [Custom Upgrades](superiorskyblock/upgrades/?id=custom-upgrades)
 ** [Disabling Upgardes](superiorskyblock/upgrades/?id=disabling-upgardes)
 * [Missions](superiorskyblock/missions/)
+* [Java-15](superiorskyblock/java-15/)
 * [API Javadocs](https://bg-software.com/superiorskyblock/api/)
 * [API](superiorskyblock/api/)
 * [Addons](superiorskyblock/addons/)

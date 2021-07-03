@@ -17,6 +17,7 @@
 * [Menus](superiorskyblock/menus/)
 * [Upgrades](superiorskyblock/upgrades/)
 * [Missions](superiorskyblock/missions/)
+* [Java-15](superiorskyblock/java-15/)
 * [API Javadocs](https://bg-software.com/superiorskyblock/api/)
 * [API](superiorskyblock/api/)
 * [Addons](superiorskyblock/addons/)
