@@ -1,6 +1,6 @@
 # Addons
 Here you can find some addons that were made using the API of the plugin.<br>
-You can find the API [here](https://github.com/OmerBenGera/SuperiorSkyblockAPI).<br>
+You can find the API [here](https://github.com/BG-Software-LLC/SuperiorSkyblock2/tree/dev/API/src/main/java/com/bgsoftware/superiorskyblock/api).<br>
 
 If you want your addon to be featured here, feel free to contact me on our [Discord Server](https://bg-software.com/discord/).
 
@@ -15,7 +15,11 @@ You can find the addon, the source code and the release files on its [github pag
 
 ### OneBlock Addon
 OneBlock is an addon for the default skyblock plugin which changes the gameplay by a lot. Instead of spawning on an island with a regular schematic, you get only one block that re-generates itself when breaking it. Everytime you break that block, a new block is generated with a different materials. The goal is to go through the phases of the plugin, until you unlock the end world. You can find a series about this gametype [here](https://www.youtube.com/watch?v=_QihkN7cxas&list=PLXYjxAo4KISIdiqhoLW_f7Y62hYgHagQC).<br>
-You can find the addon, the source code and the release files on its [github page](https://github.com/OmerBenGera/SSB-OneBlock).<br>
+You can find the addon, the source code and the release files on its [github page](https://github.com/OmerBenGera/SSB-OneBlock).
+#### Note: Setting up OneBlock
+When using the OneBlock addon, you still to configure SuperiorSkyblock2 as necessary. This means you will need to change your schematics (you don't want regular islands for OneBlock do you?) as well as any other configuration files to fit your OneBlock experience to your liking. The central block of your schematic will be the generating block (your 'one' block) so keep this in mind when creating new [schematics](https://wiki.bg-software.com/#/superiorskyblock/schematics/).
+> Players still need to use the `/is create <name> [schematic]` command to create their OneBlock island - this can be configured in the settings.
+
 
 <br>
 
