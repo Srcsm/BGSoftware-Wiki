@@ -3,10 +3,10 @@ Menus (guis) are used in the plugin in many cases, and they are all fully custom
 In this documantation, you will understand how to edit them to your own style!<br>
 Menus also support placeholders!<br>
 
-### Editing the menu's style
+### Editing the Menu's Style
 You have the ability to edit the style of the menu, which includes its title, its type and the amount of rows it has.<br>
 
-!> Note: some menus might have additional custom fields that are not addressed in this tutorial.
+!> Note: Some menus might have additional custom fields that are not addressed in this tutorial. (i.e. [Schematics](https://wiki.bg-software.com/#/superiorskyblock/schematics/))
 
 |        Field Name        |                                          Description                                    | Supported Menus |
 | ------------------------ | --------------------------------------------------------------------------------------- | --------------- |
@@ -24,7 +24,7 @@ Besides all of these fields, there is another field that is really important - `
 This field determines the pattern of the menu, or in other words - the amount of rows that the menu has and the items in the menu.<br>
 This field is a list of strings that represents the rows of the menu. Each string should contain the amount of columns the menu has.<br>
 (Regular menu types should have 9 items in a row, hoppers should have 5, etc.)<br>
-Each item in the menu is represented by a unique char, and can be set in any slot in the menu. Similar chars will represent the same item.<br>
+Each item in the menu is represented by a unique character, and can be set in any slot in the menu. Similar chars will represent the same item.<br>
 
 ##### Pattern Examples:
 
@@ -44,7 +44,7 @@ pattern:
 - 'A A A A A A A A A'
 ```
 
-### Editing items in the menu
+### Editing Items in the Menu
 All the items styling is done under the `items` section in the menu. Under this section, each item should have a section where you can style it to your own liking.<br>
 The name of the section is the unique char you chose for your item. For the examples above, the unique chars are `A` and `B`.<br>
 Therefore, the `items` section will be like the following:
@@ -90,7 +90,7 @@ Here is an example for a potion item with a speed 2 effect that lasts for 5 minu
       amplifier: 1
 ```
 
-# Giving sounds for items
+## Giving Sounds to Items
 You can make items to play sounds when clicked. All sounds must follow a specific format, which will be described below.<br>
 Similar to the way items are configured, the sounds go under the `sounds` section, and as sub-sections, each char of the item you want to apply a custom sound for.<br>
 The sound sections should have the following fields:
@@ -110,27 +110,27 @@ sounds:
     pitch: 0.2
 ```
 
-# Running custom commands
+## Running Custom Commands
 You can make commands to be executed when clicking items. Similar to the sounds and the items sections, you can use the `commands` section to execute custom commands.
 Commands can be executed by the Console, or can be executed by the player that clicks the item. Besides that, you can use `%player%` to get the name of the player that clicked the item.<br>
 
-<b>Execute commands by the player:</b><br>
+<b>Execute Commands by the Player:</b><br>
 You can make the player to execute the command instead of the Console by having `[player]` at the start of the command.<br>
 
-<b>Execute island commands:</b><br>
+<b>Execute Island Commands:</b><br>
 You can execute island commands by setting the subcommand in brackets. `[player] [tp]` will make the player to execute /is tp. For a command with args, simply add the args outside of the brackets.<br>
 
-<b>Execute custom commands:</b><br>
+<b>Execute Custom Commands:</b><br>
 You can execute custom commands by simply writing them without `/` at the start. `bc &cHello!` will execute `/bc &cHello!` by the Console.<br>
 
-<b>Built-in actions:</b><br>
+<b>Built-in Actions:</b><br>
 The plugin provides two custom actions that can be executed - close the menu and go back to the previous menu.<br>
 Similar to the player action, you can use `[close]` to close the menu, and `[back]` to go to the previous menu.<br>
 
 
-!> I recommend you to follow the default format of menus when you edit them. This will make your life much more easier when working with menus!
+!> It's recommended for you to follow the default format of menus when you edit them. This will make your life much more easier when working with menus!
 
-# Custom menus
+# Creating Custom Menus
 You can make custom menus that will be opened by custom sub-commands.<br>
 The principles of the regular menus are also applied to the custom menus. Simply create a new file under the `custom` folder - each file represents a custom menu.<br>
 Besides the regular fields of the other menus, custom menus must have the following fields:
@@ -143,7 +143,22 @@ Besides the regular fields of the other menus, custom menus must have the follow
 | `description`            | A list of descriptions for different languages for the command. The description is displayed in `/is help`.         | Optional       |
 | `display-command`        | Whether or not the command should be displayed in `/is help`.                                                       | Optional       |
 
-<b>The descriptions section:</b><br>
+<b>The Command section:</b><br>
+The command section needs to be formatted properly for the plugin to be able to register your custom menu. <br>
+Here is an example of a properly set up command section,
+
+```yaml
+command:
+  aliases: alias1, alias2
+  permission: 'your.permission'
+  display-command: true
+  description:
+    en-US: 'This is just a test menu.'
+    fr-FR: 'Il s''agit du menu de test.'
+  ```
+!> Note: The name of your custom menu file ***will be your sub-command*** (`/is {your-sub-command}`).
+
+<b>The Descriptions section:</b><br>
 The description section should have sub-sections for each language, and the description for that language as a value. For example:
 
 ```yaml
